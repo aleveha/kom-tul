@@ -1,0 +1,7 @@
+public
+.next
+.idea
+node_modules
+*.iml
+*.md
+*.lock

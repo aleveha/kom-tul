@@ -1,15 +1,3 @@
-import type {NextPage} from 'next'
-import Head from 'next/head'
+import { Page } from "@pages/homepage";
 
-const Home: NextPage = () => {
-    return (
-        <div>
-            <Head>
-                <title>KOM TUL</title>
-                <meta name="description" content="KOM TUL" />
-            </Head>
-        </div>
-    )
-}
-
-export default Home
+export default Page;
