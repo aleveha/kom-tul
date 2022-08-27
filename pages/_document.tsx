@@ -4,10 +4,7 @@ class Document extends NextDocument {
 	public render(): JSX.Element {
 		return (
 			<Html>
-				<Head>
-					<title>KOM TUL</title>
-					<meta name="description" content="KOM TUL" />
-				</Head>
+				<Head />
 				<body>
 					<Main />
 					<NextScript />
