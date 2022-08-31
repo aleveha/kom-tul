@@ -42,7 +42,7 @@ export const MetaTagData = memo<MetaTagDataProps>(
 					content={metaDescription ?? (t(defaultMetaTagData.metaDescription) as string)}
 				/>
 				{keywords && <meta name="keywords" content={keywords} />}
-				<meta name="robots" content="noindex, nofollow" />
+				<meta name="robots" content="index, follow" />
 				<meta property="og:title" content={metaTitle ?? (t(defaultMetaTagData.metaTitle) as string)} />
 				<meta
 					property="og:description"

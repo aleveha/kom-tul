@@ -1,6 +1,31 @@
 {
+	"footer": {
+		"title": "Copyright © 2020<br/> Katedra obrábění a montáže FS TUL"
+	},
 	"helmet": {
 		"title": "Katedra obrábění a montáže",
 		"description": "Katedra obrábění a montáže se zabývá teoretickými i praktickými aspekty obrábění kovových i nekovových materiálů a taky se soustředí na optimalizaci řezného procesu."
+	},
+	"navbar": {
+		"employees": {
+			"name": "Pracovníci",
+			"route": "/pracovnici"
+		},
+		"projects": {
+			"name": "Projekty",
+			"route": "/projekty"
+		},
+		"study": {
+			"name": "Výuka",
+			"route": "/vyuka"
+		},
+		"labs": {
+			"name": "Laboratoře",
+			"route": "/laboratore"
+		},
+		"cooperation": {
+			"name": "Spolupráce",
+			"route": "/spoluprace"
+		}
 	}
 }

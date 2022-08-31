@@ -1,0 +1,9 @@
+{
+	"helmet": {
+		"title": "Oops, stránka neexistuje",
+		"description": "Vypadá to, že se snažíte přejít na stránku která neexistuje."
+	},
+	"heading": "Stránka neexistuje",
+	"description": "Vypadá to, že se\u00a0snažíte přejít na\u00a0stránku která neexistuje.",
+	"button": "Zpět na\u00a0hlavní stránku"
+}

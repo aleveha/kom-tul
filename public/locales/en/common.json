@@ -1,6 +1,31 @@
 {
+	"footer": {
+		"title": "Copyright © 2020<br/> Department of Machining and Assembly FE TUL"
+	},
 	"helmet": {
 		"title": "Department of Machining and Assembly",
 		"description": "The Department of Machining and Assembly deals with theoretical and practical aspects of machining of metallic and non-metallic materials and also focuses on the optimization of the cutting process."
+	},
+	"navbar": {
+		"employees": {
+			"name": "Employees",
+			"route": "/employees"
+		},
+		"projects": {
+			"name": "Projects",
+			"route": "/projects"
+		},
+		"study": {
+			"name": "Education",
+			"route": "/education"
+		},
+		"labs": {
+			"name": "Labs",
+			"route": "/labs"
+		},
+		"cooperation": {
+			"name": "Cooperation",
+			"route": "/cooperation"
+		}
 	}
 }

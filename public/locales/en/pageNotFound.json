@@ -1,0 +1,9 @@
+{
+	"helmet": {
+		"title": "Oops, page doesn't exist",
+		"description": "It looks like you're trying to go to a page that doesn't exist."
+	},
+	"heading": "Page does not exist",
+	"description": "It looks like you're trying to go to a page that doesn't exist.",
+	"button": "Back to main page"
+}

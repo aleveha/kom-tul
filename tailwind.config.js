@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const plugin = require("tailwindcss/plugin");
+
 const em = value => value / 16 + "em";
 const rem = value => value / 16 + "rem";
 
@@ -33,14 +36,42 @@ module.exports = {
 			white: "#FFFFFF",
 		},
 		fontSize: {
-			hero: [rem(72)],
-			h1: [rem(32)],
+			hero: [rem(64)],
+			h1: [rem(40)],
 			h2: [rem(28)],
 			h3: [rem(24)],
 			large: [rem(20)],
 			body: [rem(18)],
-			small: [rem(12)],
+			small1: [rem(16)],
+			small2: [rem(12)],
+		},
+		extend: {
+			opacity: {
+				2: "2%",
+			},
+			flex: {
+				"1-0": "1 0 auto",
+			},
 		},
 	},
-	plugins: [],
+	plugins: [
+		plugin(function ({ addComponents, theme }) {
+			const screens = theme("screens", {});
+			const containers = theme("container", {});
+
+			const mediaQueries = Object.entries(screens)
+				.map(item => {
+					const width = containers[item[0]];
+					if (width) {
+						return { [`@media (min-width: ${item[1]})`]: { ".container": { "max-width": width } } };
+					}
+				})
+				.filter(Boolean);
+
+			addComponents([
+				{ ".container": { "margin-left": "auto", "margin-right": "auto", width: "100%" } },
+				...mediaQueries,
+			]);
+		}),
+	],
 };

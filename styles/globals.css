@@ -3,76 +3,84 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-display: swap;
-		font-family: inter-custom;
-		font-style: normal;
-		font-weight: 400;
-		src: local("Inter Regular"), local("Inter-Regular"), local("Inter"),
-			url("/static/fonts/inter/inter-regular.woff2") format("woff2"),
-			url("/static/fonts/inter/inter-regular.woff") format("woff");
-	}
+    @font-face {
+        font-display: swap;
+        font-family: inter-custom;
+        font-style: normal;
+        font-weight: 400;
+        src: local("Inter Regular"), local("Inter-Regular"), local("Inter"),
+        url("/static/fonts/inter/inter-regular.woff2") format("woff2"),
+        url("/static/fonts/inter/inter-regular.woff") format("woff");
+    }
 
-	@font-face {
-		font-display: swap;
-		font-family: tul-mono-custom;
-		font-style: normal;
-		font-weight: 400;
-		src: local("TULMono Regular"), local("TULMono-Regular"),
-			url("/static/fonts/tul-mono/tul-mono-regular.woff2") format("woff2"),
-			url("/static/fonts/tul-mono/tul-mono-regular.woff") format("woff");
-	}
+    @font-face {
+        font-display: swap;
+        font-family: tul-mono-custom;
+        font-style: normal;
+        font-weight: 400;
+        src: local("TULMono Regular"), local("TULMono-Regular"),
+        url("/static/fonts/tul-mono/tul-mono-regular.woff2") format("woff2"),
+        url("/static/fonts/tul-mono/tul-mono-regular.woff") format("woff");
+    }
 
-	@font-face {
-		font-display: swap;
-		font-family: tul-mono-custom;
-		font-style: normal;
-		font-weight: 700;
-		src: local("TULMono Bold"), url("/static/fonts/tul-mono/tul-mono-700.woff2") format("woff2"),
-			url("/static/fonts/tul-mono/tul-mono-700.woff") format("woff");
-	}
+    @font-face {
+        font-display: swap;
+        font-family: tul-mono-custom;
+        font-style: normal;
+        font-weight: 700;
+        src: local("TULMono Bold"), url("/static/fonts/tul-mono/tul-mono-700.woff2") format("woff2"),
+        url("/static/fonts/tul-mono/tul-mono-700.woff") format("woff");
+    }
 
-	@font-face {
-		ascent-override: 90%;
-		font-family: inter-fallback;
-		size-adjust: 107%;
-		src: local("Arial");
-	}
+    @font-face {
+        ascent-override: 90%;
+        font-family: inter-fallback;
+        size-adjust: 107%;
+        src: local("Arial");
+    }
 
-	body {
-		color: theme("colors.tulVioletDark");
-		overflow-x: hidden;
-		@apply font-base text-body;
-	}
+    body {
+        color: theme("colors.tulVioletDark");
+        overflow-x: hidden;
+        @apply font-base text-body bg-tulVioletDark bg-opacity-2;
+    }
 }
 
 @layer components {
-	.ui-typo-hero {
-		@apply font-tul-mono text-[2.5rem] font-bold md:text-[3.5rem] lg:text-hero;
-	}
+    .ui-typo-hero {
+        @apply font-tul-mono text-[2.5rem] font-bold md:text-[3.5rem] lg:text-hero;
+    }
 
-	.ui-typo-h1 {
-		@apply font-tul-mono text-[1.75rem] font-bold md:text-h1;
-	}
+    .ui-typo-h1 {
+        @apply font-tul-mono text-[1.75rem] font-bold md:text-h1;
+    }
 
-	.ui-typo-h2 {
-		@apply font-tul-mono text-[1.5rem] font-bold md:text-h2;
-	}
+    .ui-typo-h2 {
+        @apply font-tul-mono text-[1.5rem] font-bold md:text-h2;
+    }
 
-	.ui-typo-h3 {
-		@apply font-tul-mono text-h3 font-bold;
-	}
+    .ui-typo-h3 {
+        @apply font-tul-mono text-h3 font-bold;
+    }
 
-	.ui-typo-large {
-		@apply font-tul-mono text-large font-bold;
-	}
+    .ui-typo-large {
+        @apply font-tul-mono text-large font-bold;
+    }
 
-	.ui-typo-body {
-		@apply text-body;
-		line-height: 170%;
-	}
+    .ui-typo-body {
+        @apply text-body;
+        line-height: 170%;
+    }
 
-	.ui-typo-small {
-		@apply font-tul-mono text-small;
-	}
+    .ui-typo-small1 {
+        @apply font-tul-mono text-small1;
+    }
+
+    .ui-typo-small2 {
+        @apply font-tul-mono text-small2;
+    }
+
+    .ui-container {
+        @apply container px-4 md:px-0;
+    }
 }
