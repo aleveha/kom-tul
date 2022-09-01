@@ -1,0 +1,62 @@
+{
+	"aboutSection": {
+		"title": "O\u00a0katedře:",
+		"text": "Katedra obrábění a\u00a0montáže (KOM) se\u00a0zabývá teoretickými i\u00a0praktickými aspekty obrábění kovových i\u00a0nekovových materiálů. Dále se\u00a0soustředí na\u00a0optimalizaci řezného procesu z\u00a0hlediska řezného nástroje, obráběného materiálu a\u00a0řezných podmínek při soustružení, frézování, vrtání a\u00a0broušení. Výzkum je orientován na\u00a0obráběcí nástroje a\u00a0procesy, které analyzuje z\u00a0hlediska obrobitelnosti, optimalizace a\u00a0využívání procesních kapalin."
+	},
+	"heroSection": {
+		"title": "Katedra obrábění a\u00a0montáže",
+		"subtitle": "Fakulta strojní TU\u00a0v\u00a0Liberci"
+	},
+	"mainFocusSection": {
+		"title": "Hlavní odborné zaměření:",
+		"data": [
+			{
+				"title": "Obrábění klasických kovových materiálů",
+				"data": [
+					"Hodnocení technologických charakteristik a\u00a0spolehlivosti řezných nástrojů",
+					"Řezné podmínky a\u00a0jejich optimalizace z\u00a0hlediska řezného nástroje a\u00a0obráběného materiálu",
+					"Technologické charakteristiky procesních kapalin",
+					"Utváření třísky při obrábění nástroji s\u00a0definovanou geometrií břitu",
+					"Kvalita povrchu a\u00a0rozměrová stabilita po\u00a0obrábění"
+				]
+			},
+			{
+				"title": "Obrábění nekovových a\u00a0kompozitních materiálů",
+				"data": [
+					"Řezné podmínky spolu s\u00a0optimalizací procesu obrábění nekovových a\u00a0kompozitních materiálů",
+					"Procesní kapaliny pro obrábění nekovových a\u00a0kompozitních materiálů",
+					"Optimalizace nástrojů s\u00a0definovanou i\u00a0nedefinovanou geometrií břitu",
+					"Kvalita povrchu a\u00a0rozměrová stabilita po\u00a0obrábění nekovových a\u00a0kompozitních materiálů"
+				]
+			},
+			{
+				"title": "Související procesy",
+				"data": [
+					"Analýza a\u00a0projektování výrobních procesů, jejich optimalizace a\u00a0modernizace",
+					"Montážní postupy, jejich analýza, návrh a\u00a0optimalizace",
+					"Strojírenská metrologie – rozměrové charakteristiky, kvalita a\u00a0jakost povrchu"
+				]
+			}
+		]
+	},
+	"studyPrograms": {
+		"title": "Studijní programy:",
+		"data": [
+			{
+				"title": "Bakalářský studijní program",
+				"data": ["B0715A270008 – Strojírenství"]
+			},
+			{
+				"title": "Navazující magisterský studijní program",
+				"data": [
+					"N2301 – Strojní inženýrství – Strojírenská technologie a\u00a0materiály",
+					"N0722A270001 – Technologie plastů a\u00a0kompozitů"
+				]
+			},
+			{
+				"title": "Doktorský studijní program",
+				"data": ["P0788D270002 – Technologie a\u00a0materiály"]
+			}
+		]
+	}
+}

@@ -59,7 +59,7 @@ export const Navbar = memo(() => {
 	);
 
 	return (
-		<nav className="ui-container fixed left-0 right-0 top-5 md:top-10">
+		<nav className="ui-container fixed left-0 right-0 top-5 z-50 md:top-10">
 			<Disclosure>
 				{({ open, close }) => (
 					<>

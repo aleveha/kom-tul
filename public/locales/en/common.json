@@ -27,5 +27,9 @@
 			"name": "Cooperation",
 			"route": "/cooperation"
 		}
+	},
+	"slider": {
+		"nextButton": "Next",
+		"prevButton": "Previous"
 	}
 }

@@ -1,0 +1,62 @@
+{
+	"aboutSection": {
+		"title": "About us:",
+		"text": "The Department of Machining and Assembly (DMA) deals with machining metallic and non-metallic materials' theoretical and practical aspects. It also focuses on optimizing the cutting process in terms of a cutting tool, machined material, and cutting conditions during turning, milling, drilling, and grinding. The research focuses on machining tools and processes, which it analyzes in terms of machinability, optimization, and process fluids."
+	},
+	"heroSection": {
+		"title": "Department of\u00a0Machining and\u00a0Assembly",
+		"subtitle": "Faculty of Mechanical Engineering"
+	},
+	"mainFocusSection": {
+		"title": "Main professional focus:",
+		"data": [
+			{
+				"title": "Machining of classic metal materials",
+				"data": [
+					"Evaluation of technological characteristics and reliability of cutting tools",
+					"Cutting conditions and their optimization in terms of a cutting tool and machined material",
+					"Technological characteristics of process fluids",
+					"Chip formation when machining an instrument with a defined cutting edge geometry",
+					"Surface quality and dimensional stability after machining"
+				]
+			},
+			{
+				"title": "Machining of non-metallic and composite materials",
+				"data": [
+					"Cutting conditions together with optimization of the machining process of non-metallic and composite materials",
+					"Process fluids for machining non-metallic and composite materials",
+					"Optimization of tools with defined and undefined cutting edge geometry",
+					"Surface quality and dimensional stability after machining of non-metallic and composite materials"
+				]
+			},
+			{
+				"title": "Related processes",
+				"data": [
+					"Analysis and design of production processes, their optimization, and modernization",
+					"Assembly procedures, their analysis, strategy, and optimization",
+					"Engineering metrology - dimensional characteristics, quality, and surface quality"
+				]
+			}
+		]
+	},
+	"studyPrograms": {
+		"title": "Study programs:",
+		"data": [
+			{
+				"title": "Bachelor's degree programme",
+				"data": ["B0715A270008 – Mechanical Engineering"]
+			},
+			{
+				"title": "Master's degree programme",
+				"data": [
+					"N2301 – Mechanical Engineering – Mechanical Engineering Technology and Materials",
+					"N0722A270001 – Plastics and Composites Technology"
+				]
+			},
+			{
+				"title": "Doctoral degree programme",
+				"data": ["P0788D270002 – Technologies and materials"]
+			}
+		]
+	}
+}
