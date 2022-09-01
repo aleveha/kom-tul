@@ -1,6 +1,6 @@
 import { navbarConfig } from "@config/navbar-config";
 import { Disclosure } from "@headlessui/react";
-import { LangButton } from "@shared/components/navbar/lang-button";
+import { LangButtons } from "@shared/components/navbar/lang-buttons";
 import { TextLink } from "@shared/components/text-link/text-link";
 import { Logo } from "@shared/ui/logo/logo";
 import clsx from "clsx";
@@ -11,12 +11,15 @@ import { useRouter } from "next/router";
 import React, { forwardRef, memo, useCallback } from "react";
 
 interface HeaderLogoProps {
+	href?: string;
 	onClick?: () => void;
+	role?: string;
 }
 
 const HeaderLogo = forwardRef<HTMLAnchorElement, HeaderLogoProps>((props, ref) => {
 	return (
 		<a ref={ref} {...props}>
+			<span className="sr-only">KOM TUL</span>
 			<Logo />
 		</a>
 	);
@@ -70,7 +73,7 @@ export const Navbar = memo(() => {
 							)}
 						>
 							{pathname === "/" ? (
-								<HeaderLogo onClick={jumpToTop} />
+								<HeaderLogo onClick={jumpToTop} role="button" />
 							) : (
 								<Link href="/" passHref>
 									<HeaderLogo onClick={close} />
@@ -79,14 +82,7 @@ export const Navbar = memo(() => {
 							<div className="ui-typo-small1 hidden space-x-4 lg:block lg:space-x-4 xl:space-x-8">
 								{navbarItems}
 							</div>
-							<div className="ui-typo-small1 hidden space-x-2 lg:block">
-								<LangButton lang="cs" locale={locale} pathname={pathname}>
-									CZ
-								</LangButton>
-								<LangButton lang="en" locale={locale} pathname={pathname}>
-									EN
-								</LangButton>
-							</div>
+							<LangButtons locale={locale} pathname={pathname} />
 							<Disclosure.Button className="flex h-12 w-12 flex-col items-center justify-center space-y-1 lg:hidden">
 								<div className={clsx(genericHamburgerLine, open && "translate-y-2 rotate-45")} />
 								<div className={clsx(genericHamburgerLine, open && "opacity-0")} />
@@ -96,6 +92,7 @@ export const Navbar = memo(() => {
 						<Disclosure.Panel className="lg:hidden">
 							<div className="flex flex-col space-y-4 rounded-b-[3rem] bg-white bg-white px-8 pt-4 pb-6 shadow-md md:px-12">
 								{navbarItems}
+								<LangButtons isMobile locale={locale} pathname={pathname} />
 							</div>
 						</Disclosure.Panel>
 					</>
