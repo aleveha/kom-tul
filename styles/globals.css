@@ -52,11 +52,11 @@
     }
 
     .ui-typo-h1 {
-        @apply font-tul-mono text-[1.6rem] font-bold md:text-h1;
+        @apply font-tul-mono text-[2rem] font-bold md:text-h1;
     }
 
     .ui-typo-h2 {
-        @apply font-tul-mono text-[1.5rem] font-bold md:text-h2;
+        @apply font-tul-mono text-[1.6rem] font-bold md:text-h2;
     }
 
     .ui-typo-h3 {

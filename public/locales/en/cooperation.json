@@ -1,0 +1,27 @@
+{
+	"about": {
+		"text1": "DMA's broad expertise is complemented by a range of professional consultancy, training and contract research. Furthermore, cooperation on R&D projects, offering free laboratory capacity and complementary industrial activities. The above activities support the link between the DMA and industrial practice.",
+		"text2": "DMA offers research partnerships, we are very happy to assist with research in a wide range of areas from classical machining of various materials to metrology to design or optimisation of production processes. The range of DMA's expertise includes the fields of engineering design, engineering technology or prototype production."
+	},
+	"helmet": {
+		"title": "Cooperation"
+	},
+	"howToCooperate": {
+		"title": "How to cooperate with DMA",
+		"phases": [
+			{
+				"name": "The first contact",
+				"description": "We would be delighted if, as part of your initial contact, you would inform us of your request, whether it is a solution to a current operational or technological problem or a proposal for cooperation in solving your plans or projects."
+			},
+			{
+				"name": "Design and team selection",
+				"description": "During a working meeting (at our workplace or directly at your place), we will get to know your needs in detail and develop a proposal for a solution, together with facilitating cooperation with a specific expert team."
+			},
+			{
+				"name": "Realisation",
+				"description": "We will actively participate in a joint project with a specific outcome in the form of a solution to a problem area, a licence or a long-term joint cooperation."
+			}
+		]
+	},
+	"title": "Cooperation with DMA"
+}

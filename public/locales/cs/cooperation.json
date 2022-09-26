@@ -1,0 +1,27 @@
+{
+	"about": {
+		"text1": "Široké odborné zaměření KOM je doplněno nabídkou odborného poradenství, školení a\u00a0smluvního výzkumu. Dále spoluprací na\u00a0projektech VaV, nabídkou volné kapacity laboratoří a\u00a0doplňkové průmyslové činnosti. Výše uvedené aktivity podporují propojení KOM s\u00a0průmyslovou praxí.",
+		"text2": "KOM nabízí partnerství ve\u00a0výzkumu, velice rádi budeme nápomocni s\u00a0výzkumem v\u00a0širokém spektru oblastí od\u00a0klasického obrábění rozličných materiálů přes oblast metrologie až po\u00a0návrh či optimalizaci výrobních procesů. Přesah odborného zaměření KOM zahrnuje oblasti strojírenské konstrukce, strojírenské technologie či prototypové výroby."
+	},
+	"helmet": {
+		"title": "Spolupráce"
+	},
+	"howToCooperate": {
+		"title": "Jak na\u00a0spolupráci s\u00a0KOM",
+		"phases": [
+			{
+				"name": "První kontakt",
+				"description": "Budeme potěšeni, pokud nás v\u00a0rámci prvního kontaktu seznámíte s\u00a0Vaším požadavkem, ať se\u00a0jedná o\u00a0řešení aktuálních provozních či technologických problémů nebo námětu na\u00a0spolupráci při řešení Vašich záměrů nebo projektů."
+			},
+			{
+				"name": "Návrh a\u00a0výběr týmu",
+				"description": "V\u00a0rámci pracovní schůzky (na\u00a0našem pracovišti nebo přímo u\u00a0Vás) se\u00a0detailně seznámíme s\u00a0Vašimi potřebami a\u00a0vypracujeme návrh řešení spolu se\u00a0zprostředkováním spolupráce s\u00a0konkrétním odborným týmem."
+			},
+			{
+				"name": "Realizace",
+				"description": "Aktivně se\u00a0budeme podílet na\u00a0řešení společného záměru, jehož cílem je konkrétní výstup ve\u00a0formě vyřešení problematické oblasti, licence nebo dlouhodobé společné spolupráce."
+			}
+		]
+	},
+	"title": "Spolupráce s\u00a0KOM"
+}
