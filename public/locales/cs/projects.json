@@ -1,0 +1,88 @@
+{
+	"actualProjects": {
+		"projects": [
+			{
+				"name": "Vývoj nového typu vyfukovacího stroje pro extruzní vyfukování",
+				"number": "CZ.01.1.02/0.0/0.0/20_321/0024941",
+				"program": "Operační program Podnikání a\u00a0inovace pro konkurenceschopnost, výzva VIII. „APLIKACE“",
+				"provider": "Ministerstvo průmyslu a\u00a0obchodu ČR",
+				"recipient": "G D K spol. s.r.o., 360\u00a001 Kolová",
+				"solvingTerm": "2021\u00a0–\u00a02023",
+				"withEULogo": true
+			},
+			{
+				"name": "Vývoj nové generace robotického odjehlovacího stroje bez nutnosti kartáčování",
+				"number": "CZ.01.1.02/0.0/0.0/20_321/0024033",
+				"program": "Operační program Podnikání a\u00a0inovace pro konkurenceschopnost, výzva VIII. „APLIKACE“",
+				"provider": "Ministerstvo průmyslu\u00a0a obchodu ČR",
+				"recipient": "Resim s.r.o., Turnov",
+				"solvingTerm": "2020\u00a0–\u00a02022",
+				"withEULogo": true
+			},
+			{
+				"coSolver": "Technická univerzita v\u00a0Liberci / Fakulta strojní / Katedra obrábění a\u00a0montáže",
+				"name": "Výzkum koncových měrek z\u00a0hlediska teplotní roztažnosti a\u00a0nestandardního složení materiálu",
+				"number": "TJ02000175",
+				"program": "Program na\u00a0podporu aplikovaného výzkumu ZÉTA",
+				"provider": "Technologická agentura České republiky (TA ČR)",
+				"solver": "Český metrologický institut, Ing. Eva Tyralíková",
+				"solvingTerm": "2019\u00a0–\u00a02021"
+			},
+			{
+				"name": "Studium a\u00a0hodnocení procesů obrábění se\u00a0zaměřením na\u00a0nástroj a\u00a0řezné podmínky",
+				"number": "21282",
+				"provider": "Ministerstvo školství mládeže a\u00a0tělovýchovy (Studentská grantová soutěž FS TUL)",
+				"solver": "Ing. Iuliia Krasnikova",
+				"solvingTerm": "2019\u00a0–\u00a02021"
+			}
+		],
+		"title": "Aktuálně řešené projekty"
+	},
+	"archivedProjects": {
+		"projects": [
+			{
+				"coSolver": "Technická univerzita v\u00a0Liberci / Fakulta strojní, doc. Ing. Štěpánka Dvořáčková, Ph.D., Český metrologický institut, Ing. František Dvořáček, MESING, spol. s.r.o., Ing. Jan Kůr",
+				"name": "Nové systémy pro kontrolu délky koncových měrek a\u00a0vyhodnocení kvality jejich povrchů",
+				"number": "TA03010663",
+				"program": "Program na\u00a0podporu aplikovaného výzkumu a\u00a0experimentálního vývoje ALFA (2011\u00a0–\u00a02019)",
+				"provider": "Technologická agentura České republiky",
+				"solver": "Ústav přístrojové techniky AV ČR, v.v.i., Ing. Ondřej Číp, Ph.D.",
+				"solvingTerm": "2013\u00a0–\u00a02016"
+			},
+			{
+				"coSolver": "GDK spol. s.r.o., KOH-I-NOOR PONAS s.r.o., KSM Castings CZ a.s.",
+				"name": "Aplikovaný multioborový výzkum a\u00a0vývoj progresivních způsobů chlazení u\u00a0technologických procesů",
+				"number": "TA03010492",
+				"program": "Program na\u00a0podporu aplikovaného výzkumu a\u00a0experimentálního vývoje ALFA (2011\u00a0–\u00a02019)",
+				"provider": "Technologická agentura České republiky",
+				"solver": "Technická univerzita v\u00a0Liberci / Fakulta strojní",
+				"solvingTerm": "2013\u00a0–\u00a02015"
+			},
+			{
+				"coSolver": "Technická univerzita v\u00a0Liberci / Fakulta strojní, doc. Ing. Jan Jersák, CSc.",
+				"name": "Ekologické obráběcí kapaliny nové generace",
+				"number": "TA02021332",
+				"program": "Program na podporu aplikovaného výzkumu a\u00a0experimentálního vývoje ALFA (2011\u00a0–\u00a02019)",
+				"provider": "Technologická agentura České republiky",
+				"solver": "PARAMO, a.s., Ing. Jan Jehlička",
+				"solvingTerm": "2012\u00a0–\u00a02014"
+			}
+		],
+		"title": "Archiv VaV projektů"
+	},
+	"helmet": {
+		"title": "Náše projekty"
+	},
+	"projectInfoLabels": {
+		"coSolver": "Spoluřešitel",
+		"mainRecipient": "Hlavní příjemce",
+		"name": "Název projektu",
+		"number": "Označení projektu",
+		"program": "Program",
+		"provider": "Poskytovatel",
+		"recipient": "Příjemce",
+		"solver": "Řešitel projektu",
+		"solvingTerm": "Období řešení projektu"
+	},
+	"title": "Projekty"
+}

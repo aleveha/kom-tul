@@ -5,6 +5,18 @@ const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 	i18n,
+	async rewrites() {
+		return [
+			{
+				source: "/en/projects",
+				destination: "/en/projekty",
+			},
+			{
+				source: "/projects",
+				destination: "/projekty",
+			},
+		];
+	},
 };
 
 module.exports = nextConfig;

@@ -1,0 +1,88 @@
+{
+	"actualProjects": {
+		"projects": [
+			{
+				"name": "Development of\u00a0a new type of\u00a0blow molding machine for extrusion blow molding",
+				"number": "CZ.01.1.02/0.0/0.0/20_321/0024941",
+				"program": "Operational programme enterprise and innovation for competitiveness, call VIII. „APPLICATION“",
+				"provider": "Ministry of\u00a0industry and trade of\u00a0the Czech Republic",
+				"recipient": "G D K spol. s r.o., 360 01 Kolová",
+				"solvingTerm": "2021\u00a0–\u00a02023",
+				"withEULogo": true
+			},
+			{
+				"name": "Development of\u00a0a new generation of\u00a0robotic deburring machine without the need for brushing",
+				"number": "CZ.01.1.02/0.0/0.0/20_321/0024033",
+				"program": "Operational programme enterprise and innovation for competitiveness, call VIII. „APPLICATION“",
+				"provider": "Ministry of\u00a0industry and trade of\u00a0the Czech Republic",
+				"recipient": "Resim s.r.o., Turnov",
+				"solvingTerm": "2020\u00a0–\u00a02022",
+				"withEULogo": true
+			},
+			{
+				"coSolver": "Technical University of\u00a0Liberec / Faculty of\u00a0Mechanical Engineering / Department of\u00a0Machining and Assembly",
+				"name": "Research of\u00a0end gauges in terms of\u00a0thermal expansion and non-standard material composition",
+				"number": "TJ02000175",
+				"program": "Program to support applied research ZÉTA",
+				"provider": "Technology Agency of\u00a0the Czech Republic (TA CR)",
+				"solver": "Czech Metrology Institute, Ing. Eva Tyralikova",
+				"solvingTerm": "2019\u00a0–\u00a02021"
+			},
+			{
+				"name": "Study and evaluation of\u00a0machining processes with a focus on the tool and cutting conditions",
+				"number": "21282",
+				"provider": "Ministry of\u00a0Education, Youth, and Sports (Student grant competition Faculty of\u00a0Mechanical Engineering TUL)",
+				"solver": "Ing. Iuliia Krasnikova",
+				"solvingTerm": "2019\u00a0–\u00a02021"
+			}
+		],
+		"title": "Currently solved projects"
+	},
+	"archivedProjects": {
+		"projects": [
+			{
+				"coSolver": "Technical University of\u00a0Liberec / Faculty of\u00a0Mechanical Engineering, doc. Ing. Štěpánka Dvořáčková, Ph.D., Czech Institute of\u00a0Metrology, Ing. František Dvořáček, MESING, spol. s r.o., Ing. Jan Kůr",
+				"name": "New systems for checking the length of\u00a0end gauges and evaluating the quality of\u00a0their surfaces",
+				"number": "TA03010663",
+				"program": "Program to support applied research and experimental development ALFA (2011 - 2019)",
+				"provider": "Technology Agency of\u00a0the Czech Republic",
+				"solver": "Institute of\u00a0Instrumentation AS CR, v.v.i., Ing. Ondřej Číp, Ph.D.",
+				"solvingTerm": "2013\u00a0–\u00a02016"
+			},
+			{
+				"coSolver": "GDK spol. s.r.o., KOH-I-NOOR PONAS s.r.o., KSM Castings CZ a.s.",
+				"name": "Applied multidisciplinary research and development of\u00a0progressive methods of\u00a0cooling in technological processes",
+				"number": "TA03010492",
+				"program": "Program to support applied research and experimental development ALFA (2011 - 2019))",
+				"provider": "Technology Agency of\u00a0the Czech Republic",
+				"solver": "Technical University of\u00a0Liberec / Faculty of\u00a0Mechanical Engineering",
+				"solvingTerm": "2013\u00a0–\u00a02015"
+			},
+			{
+				"coSolver": "Technical University of\u00a0Liberec / Faculty of\u00a0Mechanical Engineering, doc. Ing. Jan Jersak, CSc.",
+				"name": "Ecological machining fluids of\u00a0a new generation",
+				"number": "TA02021332",
+				"program": "Program to support applied research and experimental development ALFA (2011 - 2019)",
+				"provider": "Technology Agency of\u00a0the Czech Republic",
+				"solver": "PARAMO, a.s., Ing. Jan Jehlička",
+				"solvingTerm": "2012\u00a0–\u00a02014"
+			}
+		],
+		"title": "Archive of\u00a0R&D projects"
+	},
+	"helmet": {
+		"title": "Our projects"
+	},
+	"projectInfoLabels": {
+		"coSolver": "Co-researcher",
+		"mainRecipient": "Main beneficiary",
+		"name": "Project name",
+		"number": "Project designation",
+		"program": "Program",
+		"provider": "Provider",
+		"recipient": "Beneficiary",
+		"solver": "Project leader",
+		"solvingTerm": "Project solution period"
+	},
+	"title": "Projects"
+}
