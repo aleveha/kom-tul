@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Link from "next/link";
 import React, { AnchorHTMLAttributes, forwardRef } from "react";
 
 type Variant = "light" | "dark";
@@ -8,12 +9,12 @@ interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
 	variant?: Variant;
 }
 
-export const TextLink = forwardRef<HTMLAnchorElement, Props>(
+const TextLinkComponent = forwardRef<HTMLAnchorElement, Props>(
 	({ children, className, disabled, variant = "light", ...restAnchorProps }, ref) => (
 		<a
 			className={clsx(
 				"font-tul-mono no-underline",
-				!disabled && "hover:cursor-pointer",
+				!disabled && "transform duration-300 hover:cursor-pointer",
 				variant === "light"
 					? "text-tulViolet hover:text-tulVioletDark"
 					: "text-tulVioletDark hover:text-tulViolet",
@@ -24,6 +25,18 @@ export const TextLink = forwardRef<HTMLAnchorElement, Props>(
 		>
 			{children}
 		</a>
+	),
+);
+
+TextLinkComponent.displayName = "TextLinkComponent";
+
+export const TextLink = forwardRef<HTMLAnchorElement, Props>(({ href, ...rest }, ref) =>
+	href?.startsWith("/") ? (
+		<Link href={href} passHref>
+			<TextLinkComponent ref={ref} {...rest} />
+		</Link>
+	) : (
+		<TextLinkComponent href={href} ref={ref} {...rest} />
 	),
 );
 

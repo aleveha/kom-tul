@@ -20,6 +20,10 @@ const nextConfig = {
 				destination: "/en/pracovnici",
 			},
 			{
+				source: "/en/laboratories",
+				destination: "/en/laboratore",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
@@ -30,6 +34,10 @@ const nextConfig = {
 			{
 				source: "/employees",
 				destination: "/pracovnici",
+			},
+			{
+				source: "/laboratories",
+				destination: "/laboratore",
 			},
 		];
 	},

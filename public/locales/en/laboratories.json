@@ -1,0 +1,23 @@
+{
+	"helmet": {
+		"title": "Laboratories"
+	},
+	"labs": {
+		"chipTechnologies": {
+			"preview": {
+				"description": "One of\u00a0the\u00a0main objectives is to\u00a0offer services related to the optimisation of\u00a0the\u00a0cutting process in terms of\u00a0tool, material and cutting conditions.",
+				"name": "Laboratory of\u00a0chip technologies and processes"
+			}
+		},
+		"engineeringMetrology": {
+			"preview": {
+				"description": "The aim of\u00a0the laboratory is to\u00a0create a\u00a0comprehensive service offering, especially in the field of length and angle measurements (1D, 2D, 3D). It is also equipped for precise measurement of\u00a0surface roughness parameters by the touch method.",
+				"name": "Laboratory of engineering metrology"
+			}
+		},
+		"preview": {
+			"moreButton": "Learn more"
+		}
+	},
+	"title": "Our laboratories"
+}

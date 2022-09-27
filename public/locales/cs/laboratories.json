@@ -1,0 +1,23 @@
+{
+	"helmet": {
+		"title": "Laboratoře"
+	},
+	"labs": {
+		"chipTechnologies": {
+			"preview": {
+				"description": "Jedním z\u00a0hlavních cílů je nabídka služeb spojená s\u00a0optimalizací řezného procesu z\u00a0hlediska nástroje, obráběného materiálu i\u00a0řezných podmínek.",
+				"name": "Laboratoř třískových technologií a\u00a0procesů"
+			}
+		},
+		"engineeringMetrology": {
+			"preview": {
+				"description": "Cílem laboratoře je vytvoření nabídky komplexních služeb zejména v\u00a0oblasti měření délek a\u00a0úhlů (1D, 2D, 3D). Dále je vybavena pro přesné měření parametrů drsnosti povrchu dotykovou metodou.",
+				"name": "Laboratoř strojírenské metrologie"
+			}
+		},
+		"preview": {
+			"moreButton": "Zjistit vice"
+		}
+	},
+	"title": "Naše laboratoře"
+}
