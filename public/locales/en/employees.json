@@ -1,0 +1,60 @@
+{
+	"assistants": {
+		"knap": {
+			"name": "Ing. Artur KNAP",
+			"email": "artur.knap@tul.cz",
+			"phone": "+420 48 535 3368"
+		},
+		"knapek": {
+			"name": "Ing. Tomáš KNÁPEK",
+			"email": "tomas.knapek@tul.cz",
+			"phone": "+420 48 535 3368"
+		},
+		"title": "Assistants"
+	},
+	"helmet": {
+		"title": "Employees"
+	},
+	"labels": {
+		"email": "E-mail",
+		"phone": "Phone",
+		"specialisation": "Specialisation"
+	},
+	"mainEmployees": {
+		"dvorackova": {
+			"position": "Head of\u00a0the\u00a0department",
+			"name": "doc. Ing. Štěpánka DVOŘÁČKOVÁ Ph.D.",
+			"email": "stepanka.dvorackova@tul.cz",
+			"phone": "+420 48 535 3369",
+			"specialisation": "metrology"
+		},
+		"kusa": {
+			"position": "Deputy head of\u00a0the\u00a0department",
+			"name": "Ing. Petr KŮSA Ph.D.",
+			"email": "petr.kusa@tul.cz",
+			"phone": "+420 48 535 3369",
+			"specialisation": "design and installation"
+		},
+		"vana": {
+			"position": "Head of\u00a0the\u00a0laboratory of\u00a0chip technologies and processes",
+			"name": "Bc. Martin VÁŇA",
+			"email": "martin.vana@tul.cz",
+			"phone": "+420 48 535 3393",
+			"specialisation": "machining of\u00a0metal, plastic and composite materials"
+		}
+	},
+	"PhD": {
+		"students": [
+			{
+				"name": "Ing. Mikhail KHRAMENKOV",
+				"email": "mikhail.khramenkov@tul.cz"
+			},
+			{
+				"name": "Ing. Tomáš KOZLOK",
+				"email": "tkozlok@tosvarnsdorf.cz"
+			}
+		],
+		"title": "PhD students"
+	},
+	"title": "Employees"
+}

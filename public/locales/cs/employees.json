@@ -1,0 +1,60 @@
+{
+	"assistants": {
+		"knap": {
+			"name": "Ing. Artur KNAP",
+			"email": "artur.knap@tul.cz",
+			"phone": "+420 48 535 3368"
+		},
+		"knapek": {
+			"name": "Ing. Tomáš KNÁPEK",
+			"email": "tomas.knapek@tul.cz",
+			"phone": "+420 48 535 3368"
+		},
+		"title": "Asistenti"
+	},
+	"helmet": {
+		"title": "Pracovníci"
+	},
+	"labels": {
+		"email": "E-mail",
+		"phone": "Telefon",
+		"specialisation": "Zaměření"
+	},
+	"mainEmployees": {
+		"dvorackova": {
+			"position": "Vedoucí katedry",
+			"name": "doc. Ing. Štěpánka DVOŘÁČKOVÁ Ph.D.",
+			"email": "stepanka.dvorackova@tul.cz",
+			"phone": "+420 48 535 3369",
+			"specialisation": "metrologie"
+		},
+		"kusa": {
+			"position": "Zástupce vedoucího katedry",
+			"name": "Ing. Petr KŮSA Ph.D.",
+			"email": "petr.kusa@tul.cz",
+			"phone": "+420 48 535 3369",
+			"specialisation": "projektování a\u00a0montáž"
+		},
+		"vana": {
+			"position": "Vedoucí laboratoře třískových technologií a\u00a0procesů",
+			"name": "Bc. Martin VÁŇA",
+			"email": "martin.vana@tul.cz",
+			"phone": "+420 48 535 3393",
+			"specialisation": "obrábění kovových, plastových a\u00a0kompozitních materiálů"
+		}
+	},
+	"PhD": {
+		"students": [
+			{
+				"name": "Ing. Mikhail KHRAMENKOV",
+				"email": "mikhail.khramenkov@tul.cz"
+			},
+			{
+				"name": "Ing. Tomáš KOZLOK",
+				"email": "tkozlok@tosvarnsdorf.cz"
+			}
+		],
+		"title": "Doktorandi"
+	},
+	"title": "Pracovníci"
+}

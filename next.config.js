@@ -16,12 +16,20 @@ const nextConfig = {
 				destination: "/en/spoluprace",
 			},
 			{
+				source: "/en/employees",
+				destination: "/en/pracovnici",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
 			{
 				source: "/cooperation",
 				destination: "/spoluprace",
+			},
+			{
+				source: "/employees",
+				destination: "/pracovnici",
 			},
 		];
 	},
