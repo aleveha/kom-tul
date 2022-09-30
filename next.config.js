@@ -24,6 +24,10 @@ const nextConfig = {
 				destination: "/en/laboratore",
 			},
 			{
+				source: "/en/laboratories/laboratory-of-chip-technologies",
+				destination: "/en/laboratore/laborator-triskovych-technologii-a-procesu",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
@@ -38,6 +42,10 @@ const nextConfig = {
 			{
 				source: "/laboratories",
 				destination: "/laboratore",
+			},
+			{
+				source: "/laboratories/laboratory-of-chip-technologies",
+				destination: "/laboratore/laborator-triskovych-technologii-a-procesu",
 			},
 		];
 	},

@@ -1,6 +1,5 @@
 import { TextLink } from "@shared/components/text-link/text-link";
 import clsx from "clsx";
-import Link from "next/link";
 import React, { FC, ReactNode } from "react";
 
 interface LangButtonProps extends LangButtonsProps {
@@ -11,15 +10,14 @@ interface LangButtonProps extends LangButtonsProps {
 const LangButton: FC<LangButtonProps> = ({ children, lang, locale, pathname }) => {
 	const sameLang = locale === lang;
 	return (
-		<Link href={pathname} locale={lang} passHref>
-			<TextLink
-				className={clsx(sameLang && "border-b-2 border-tulViolet font-bold hover:cursor-default")}
-				disabled={sameLang}
-				href={pathname}
-			>
-				{children}
-			</TextLink>
-		</Link>
+		<TextLink
+			className={clsx(sameLang && "border-b-2 border-tulViolet font-bold hover:cursor-default")}
+			disabled={sameLang}
+			locale={lang}
+			href={pathname}
+		>
+			{children}
+		</TextLink>
 	);
 };
 

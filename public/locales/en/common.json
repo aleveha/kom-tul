@@ -9,23 +9,23 @@
 	"navbar": {
 		"employees": {
 			"name": "Employees",
-			"route": "/employees"
+			"route": "/en/employees"
 		},
 		"projects": {
 			"name": "Projects",
-			"route": "/projects"
+			"route": "/en/projects"
 		},
 		"study": {
 			"name": "Education",
-			"route": "/education"
+			"route": "/en/education"
 		},
 		"labs": {
 			"name": "Labs",
-			"route": "/labs"
+			"route": "/en/laboratories"
 		},
 		"cooperation": {
 			"name": "Cooperation",
-			"route": "/cooperation"
+			"route": "/en/cooperation"
 		}
 	},
 	"slider": {

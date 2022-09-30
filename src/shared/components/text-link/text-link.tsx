@@ -6,6 +6,7 @@ type Variant = "light" | "dark";
 
 interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
 	disabled?: boolean;
+	locale?: string;
 	variant?: Variant;
 }
 
@@ -30,9 +31,9 @@ const TextLinkComponent = forwardRef<HTMLAnchorElement, Props>(
 
 TextLinkComponent.displayName = "TextLinkComponent";
 
-export const TextLink = forwardRef<HTMLAnchorElement, Props>(({ href, ...rest }, ref) =>
+export const TextLink = forwardRef<HTMLAnchorElement, Props>(({ href, locale, ...rest }, ref) =>
 	href?.startsWith("/") ? (
-		<Link href={href} passHref>
+		<Link href={href} locale={locale} passHref>
 			<TextLinkComponent ref={ref} {...rest} />
 		</Link>
 	) : (

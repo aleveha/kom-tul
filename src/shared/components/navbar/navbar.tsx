@@ -27,22 +27,6 @@ const HeaderLogo = forwardRef<HTMLAnchorElement, HeaderLogoProps>((props, ref) =
 
 HeaderLogo.displayName = "HeaderLogo";
 
-interface HeaderItemProps extends HeaderLogoProps {
-	pathname: string;
-	route: string;
-	title: string;
-}
-
-const HeaderItem = forwardRef<HTMLAnchorElement, HeaderItemProps>(({ pathname, route, title, ...rest }, ref) => {
-	return (
-		<TextLink className={clsx(pathname === route && "font-bold")} ref={ref} {...rest}>
-			{title}
-		</TextLink>
-	);
-});
-
-HeaderItem.displayName = "HeaderItem";
-
 export const Navbar = memo(() => {
 	const { t } = useTranslation("common");
 	const { locale, pathname } = useRouter();
@@ -51,15 +35,11 @@ export const Navbar = memo(() => {
 
 	const genericHamburgerLine = "h-1 w-8 rounded-full bg-tulViolet transition ease-in-out transform duration-300";
 
-	const navbarItems = navbarConfig.map(({ name, route }) =>
-		pathname === t(route) ? (
-			<HeaderItem key={t(name)} onClick={jumpToTop} pathname={pathname} route={t(route)} title={t(name)} />
-		) : (
-			<Link href={t(route)} key={name} passHref>
-				<HeaderItem key={t(name)} pathname={pathname} route={t(route)} title={t(name)} />
-			</Link>
-		),
-	);
+	const navbarItems = navbarConfig.map(({ name, route }) => (
+		<TextLink key={t(name)} onClick={jumpToTop} href={t(route)}>
+			{t(name)}
+		</TextLink>
+	));
 
 	return (
 		<nav className="ui-container fixed left-0 right-0 top-5 z-50 md:top-10">

@@ -30,7 +30,12 @@ export const InfoTile: FC<Props> = ({ as, data, disableListStyle, index, showEuL
 			) : (
 				<h4 className="ui-typo-large mb-5">{title}</h4>
 			)}
-			<ul className={clsx("ui-typo-body space-y-2 opacity-70", !disableListStyle && "list-inside list-disc")}>
+			<ul
+				className={clsx(
+					"ui-typo-body space-y-2 opacity-70",
+					!disableListStyle ? "ml-4 list-disc" : "list-inside",
+				)}
+			>
 				{data.map(item => (
 					<li key={item}>{item}</li>
 				))}

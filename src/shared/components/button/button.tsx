@@ -9,7 +9,7 @@ interface LinkButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 const LinkButton = forwardRef<HTMLAnchorElement, LinkButtonProps>(({ children, className, href, ...rest }, ref) => (
 	<a
 		className={clsx(
-			"flex w-fit rounded-full bg-tulViolet px-8 py-5",
+			"flex w-fit transform rounded-full bg-tulViolet px-8 py-5 duration-500",
 			href && "hover:cursor-pointer hover:bg-tulVioletDark",
 			className,
 		)}
