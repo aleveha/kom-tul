@@ -62,7 +62,15 @@ export const AllLaboratoriesSection: FC = () => {
 						: "/laboratore/laborator-triskovych-technologii-a-procesu"
 				}
 			/>
-			<LaboratoryPreview {...labOfEngineeringMetrology} image={labOfEngineeringMetrologyImg} />
+			<LaboratoryPreview
+				{...labOfEngineeringMetrology}
+				image={labOfEngineeringMetrologyImg}
+				link={
+					locale === "en"
+						? "/en/laboratories/laboratory-of-engineering-metrology"
+						: "/laboratore/laborator-strojirenske-metrologie"
+				}
+			/>
 		</div>
 	);
 };

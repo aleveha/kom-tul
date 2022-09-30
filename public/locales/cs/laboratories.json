@@ -79,7 +79,53 @@
 			"preview": {
 				"description": "Cílem laboratoře je vytvoření nabídky komplexních služeb zejména v\u00a0oblasti měření délek a\u00a0úhlů (1D, 2D, 3D). Dále je vybavena pro přesné měření parametrů drsnosti povrchu dotykovou metodou.",
 				"name": "Laboratoř strojírenské metrologie"
-			}
+			},
+			"mainAim": "Laboratoř strojírenské metrologie disponuje moderním vybavením pro měření geometrických vlastností strojních součástí. Cílem laboratoře je vytvoření nabídky komplexních služeb zejména v\u00a0oblasti měření délek a\u00a0úhlů (1D, 2D, 3D). Dále je vybavena pro přesné měření parametrů drsnosti povrchu dotykovou metodou dle ČSN EN ISO 4287 a\u00a0dalších norem. Pro bezdotykové měření parametrů drsnosti povrchu je laboratoř vybavena konfokálním mikroskopem a 3D\u00a0laserovým bezkontaktním profiloměrem. Součástí nabídky je analýza vlastností povrchové vrstvy digitálním analyzátorem Barkhausenova šumu. Pro měření fyzikálních veličin pevných látek je laboratoř vybavena termomechanickým analyzátorem.",
+			"focus": [
+				"hodnocení parametrů drsnosti povrchu a\u00a0křivek materiálového podílu",
+				"nedestruktivní a\u00a0rychlá kontrola jakosti a\u00a0kvality povrchu",
+				"nedestruktivní a\u00a0rychlá kontrola podpovrchových vad u\u00a0feromagnetických strojních součástí",
+				"měření délkových rozměrů dotykovým i\u00a0bezdotykovým způsobem",
+				"měření rovinných a\u00a0prostorových úhlů dotykovým i\u00a0bezdotykovým způsobem",
+				"měření teplotní roztažnosti"
+			],
+			"equipment": [
+				"profilometr Mitutoyo Surftest SV-2000N2",
+				"konfokální mikroskop a\u00a03D\u00a0laserový bezkontaktní profiloměr KEYENCE VK-X1100",
+				"digitální analyzátor Barkhausenova šumu MicroScan\u00a0600-1",
+				"souřadnicový měřicí stroj Zeiss Prismo\u00a05",
+				"termomechanický analyzátor TMA\u00a0PT-1000LT",
+				"systém pro měření teploty při obrábění",
+				"univerzální mikroskop Zeiss",
+				"profilprojektor"
+			],
+			"services": [
+				{
+					"title": "Měření délek a\u00a0úhlů",
+					"content": [
+						"dotykové měření délkových a\u00a0úhlových rozměrů součástí do\u00a0rozměru max. 800\u00a0×\u00a01200\u00a0×\u00a0500mm",
+						"bezdotykové měření délkových a\u00a0úhlových rozměrů součástí do\u00a0rozměru max. 100\u00a0×\u00a0200\u00a0×\u00a0300mm"
+					]
+				},
+				{
+					"title": "Topografie povrchu strojních součástí (kontaktní i\u00a0bezkontaktní měření jakosti povrchu)",
+					"content": [
+						"hodnocení parametrů a\u00a0křivek drsnosti povrchu",
+						"analýza hloubky vrypů event. dalších povrchových vad",
+						"přesné analýzy komplikovaných tvarových ploch",
+						"3D\u00a0měření parametrů drsnosti povrchu (drážky, závity, ozubená kola aj.) pro kovové, nekovové i\u00a0elastické součásti",
+						"analýza tloušťky nanesených povlaků"
+					]
+				},
+				{
+					"title": "Analýza vlastností povrchové vrstvy strojních součástí",
+					"content": [
+						"detekce poruch a\u00a0trhlinek",
+						"hodnocení vlivu materiálu, technologie obrábění a\u00a0řezných podmínek na\u00a0vlastnosti povrchové vrstvy",
+						"hodnocení anomálií vyvolaných změnami zbytkového napětí, tvrdosti a\u00a0mikrostruktury"
+					]
+				}
+			]
 		},
 		"titles": {
 			"mainAim": "Hlavní cíle a\u00a0aktivity laboratoře:",

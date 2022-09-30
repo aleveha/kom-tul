@@ -28,6 +28,10 @@ const nextConfig = {
 				destination: "/en/laboratore/laborator-triskovych-technologii-a-procesu",
 			},
 			{
+				source: "/en/laboratories/laboratory-of-engineering-metrology",
+				destination: "/en/laboratore/laborator-strojirenske-metrologie",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
@@ -46,6 +50,10 @@ const nextConfig = {
 			{
 				source: "/laboratories/laboratory-of-chip-technologies",
 				destination: "/laboratore/laborator-triskovych-technologii-a-procesu",
+			},
+			{
+				source: "/laboratories/laboratory-of-engineering-metrology",
+				destination: "/laboratore/laborator-strojirenske-metrologie",
 			},
 		];
 	},

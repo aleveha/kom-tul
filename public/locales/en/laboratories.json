@@ -79,7 +79,53 @@
 			"preview": {
 				"description": "The aim of\u00a0the laboratory is to\u00a0create a\u00a0comprehensive service offering, especially in the field of length and angle measurements (1D, 2D, 3D). It is also equipped for precise measurement of\u00a0surface roughness parameters by the touch method.",
 				"name": "Laboratory of engineering metrology"
-			}
+			},
+			"mainAim": "The Laboratory of Engineering Metrology has modern equipment for measuring the geometric properties of machine parts. The laboratory aims to\u00a0create a\u00a0range of\u00a0comprehensive services, especially in measuring lengths and angles (1D, 2D, 3D). It is also equipped for accurate measurement of\u00a0surface roughness parameters by touch method according to ČSN\u00a0EN\u00a0ISO\u00a04287 and other standards. For non-contact measurement of\u00a0surface roughness parameters, the laboratory is equipped with a\u00a0confocal microscope and a\u00a03D laser non-contact profilometer. Part of\u00a0the offer is the analysis of\u00a0the surface layer's properties by a digital Barkhausen noise analyzer. The laboratory is equipped with a\u00a0thermomechanical analyzer for measuring the physical quantities of\u00a0solids.",
+			"focus": [
+				"evaluation of\u00a0surface roughness parameters and material fraction curves",
+				"non-destructive and rapid quality control and surface quality",
+				"non-destructive and immediate inspection of\u00a0subsurface defects in ferromagnetic machine parts",
+				"measuring length dimensions by\u00a0contact and non-contact method",
+				"measurement of\u00a0plane and spatial angles by\u00a0tactile and non-tactile methods",
+				"measurement of\u00a0thermal expansion"
+			],
+			"equipment": [
+				"Mitutoyo Surftest SV-2000N2 profilometer",
+				"KEYENCE VK-X1100 confocal microscope and 3D laser non-contact profiler",
+				"Barkhausen Noise Digital Analyzer MicroScan 600-1",
+				"Zeiss Prismo\u00a05 coordinate measuring machine",
+				"thermomechanical analyzer TMA\u00a0PT-1000LT",
+				"system for measuring the temperature during machining",
+				"Zeiss universal microscope",
+				"profile projector"
+			],
+			"services": [
+				{
+					"title": "Measurement of\u00a0lengths and angles",
+					"content": [
+						"tactile measurement of\u00a0length and angular dimensions of components up to a\u00a0maximum size of 800\u00a0×\u00a01200\u00a0×\u00a0500mm",
+						"non-contact measurement of\u00a0length and angular dimensions of parts up to a\u00a0maximum height of 100\u00a0×\u00a0200\u00a0×\u00a0300mm"
+					]
+				},
+				{
+					"title": "Surface topography of\u00a0machine parts (contact and non-contact surface quality measurement)",
+					"content": [
+						"evaluation of\u00a0parameters and surface roughness curves",
+						"analysis of\u00a0the depth of\u00a0the scratches event. other surface defects",
+						"accurate analyzes of\u00a0complicated shaped surfaces",
+						"3D measurement of\u00a0surface roughness parameters (grooves, threads, gears, etc.) for metallic, non-metallic, and elastic components",
+						"analysis of\u00a0the thickness of\u00a0applied coatings"
+					]
+				},
+				{
+					"title": "Analysis of\u00a0the properties of\u00a0the surface layer of\u00a0machine parts\n",
+					"content": [
+						"detection of\u00a0faults and cracks",
+						"evaluation of\u00a0the influence of\u00a0material, machining technology, and cutting conditions on the properties of\u00a0the surface layer",
+						"evaluation of\u00a0anomalies caused by\u00a0changes in residual stress, hardness, and microstructure"
+					]
+				}
+			]
 		},
 		"titles": {
 			"mainAim": "Main goals and activities of\u00a0the laboratory:",
