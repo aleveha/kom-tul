@@ -7,7 +7,10 @@ interface SliderButtonsWrapperProps {
 }
 
 const SliderButtonsWrapper: FC<SliderButtonsWrapperProps> = ({ children, onClick }) => (
-	<button className="rounded-full border-2 px-4 py-4 hover:text-tulViolet" onClick={onClick}>
+	<button
+		className="rounded-full border-2 px-4 py-4 text-white text-opacity-60 hover:text-opacity-100"
+		onClick={onClick}
+	>
 		{children}
 	</button>
 );
@@ -21,7 +24,7 @@ export const SliderButtons: FC<SliderButtonsProps> = ({ nextClick, prevClick }) 
 	const { t } = useTranslation("common");
 
 	return (
-		<div className="m-auto flex space-x-8 text-gray500 xl:absolute xl:bottom-0 xl:-left-64">
+		<div className="m-auto flex space-x-8 xl:absolute xl:bottom-0 xl:-left-64">
 			<SliderButtonsWrapper onClick={prevClick}>
 				<span className="sr-only">{t("slider.prevButton")}</span>
 				<svg fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-8 w-8">

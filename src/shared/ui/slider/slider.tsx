@@ -15,7 +15,7 @@ export const Slider: FC<Props> = ({ slides }) => {
 
 	return (
 		<div className="flex flex-col space-y-10 xl:relative">
-			<div className="overflow-hidden rounded-3xl" ref={emblaRef}>
+			<div className="z-10 overflow-hidden rounded-3xl border-2 border-white" ref={emblaRef}>
 				<div className="flex">
 					{slides.map(image => (
 						<div className="flex flex-0-0-100" key={image.src}>
