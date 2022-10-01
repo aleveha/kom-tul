@@ -35,12 +35,6 @@ export const Navbar = memo(() => {
 
 	const genericHamburgerLine = "h-1 w-8 rounded-full bg-tulViolet transition ease-in-out transform duration-300";
 
-	const navbarItems = navbarConfig.map(({ name, route }) => (
-		<TextLink key={t(name)} onClick={jumpToTop} href={t(route)}>
-			{t(name)}
-		</TextLink>
-	));
-
 	return (
 		<nav className="ui-container fixed left-0 right-0 top-5 z-50 md:top-10">
 			<Disclosure>
@@ -60,7 +54,11 @@ export const Navbar = memo(() => {
 								</Link>
 							)}
 							<div className="ui-typo-small1 hidden space-x-4 lg:block lg:space-x-4 xl:space-x-8">
-								{navbarItems}
+								{navbarConfig.map(({ name, route }) => (
+									<TextLink key={t(name)} href={t(route)}>
+										{t(name)}
+									</TextLink>
+								))}
 							</div>
 							<LangButtons locale={locale} pathname={pathname} />
 							<Disclosure.Button className="flex h-12 w-12 flex-col items-center justify-center space-y-1 lg:hidden">
@@ -71,7 +69,11 @@ export const Navbar = memo(() => {
 						</div>
 						<Disclosure.Panel className="lg:hidden">
 							<div className="flex flex-col space-y-4 rounded-b-[3rem] bg-white bg-white px-8 pt-4 pb-6 shadow-md md:px-12">
-								{navbarItems}
+								{navbarConfig.map(({ name, route }) => (
+									<TextLink key={t(name)} onClick={() => close()} href={t(route)}>
+										{t(name)}
+									</TextLink>
+								))}
 								<LangButtons isMobile locale={locale} pathname={pathname} />
 							</div>
 						</Disclosure.Panel>
