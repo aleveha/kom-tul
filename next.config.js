@@ -32,6 +32,10 @@ const nextConfig = {
 				destination: "/en/laboratore/laborator-strojirenske-metrologie",
 			},
 			{
+				source: "/en/education",
+				destination: "/en/vyuka",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
@@ -54,6 +58,10 @@ const nextConfig = {
 			{
 				source: "/laboratories/laboratory-of-engineering-metrology",
 				destination: "/laboratore/laborator-strojirenske-metrologie",
+			},
+			{
+				source: "/education",
+				destination: "/vyuka",
 			},
 		];
 	},

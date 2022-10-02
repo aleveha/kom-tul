@@ -28,6 +28,7 @@ module.exports = {
 			xxl: rem(1216),
 		},
 		colors: {
+			transparent: "transparent",
 			tulViolet: "#5948AD",
 			tulVioletDark: "#251E48",
 			gray500: "#888B95",

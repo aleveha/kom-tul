@@ -1,0 +1,301 @@
+{
+	"bachelorDegree": {
+		"academicDegree": "Bachelor\u00a0(Bc.)",
+		"fieldsOfStudy": [
+			{
+				"code": "B0715A270008",
+				"name": "Mechanical Engineering",
+				"years": [
+					{
+						"number": 3,
+						"subjects": [
+							{
+								"credits": 4,
+								"exam": "Exam",
+								"name": "Technology\u00a03",
+								"range": "2+2",
+								"required": true,
+								"semester": "Winter",
+								"shortName": "TOB-B",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 2,
+								"exam": "Cl.en.",
+								"name": "Bachelor Seminar",
+								"range": "0+2",
+								"required": true,
+								"semester": "Winter",
+								"shortName": "BCPS",
+								"teacher": "BT supervisor"
+							},
+							{
+								"credits": 4,
+								"exam": "Exam",
+								"name": "Assembly and metrology",
+								"range": "2+1",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "MOM-B",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 6,
+								"exam": "Credit",
+								"name": "Bachelor thesis I.",
+								"range": "50h",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "BCP1",
+								"teacher": "BT supervisor"
+							},
+							{
+								"credits": 10,
+								"exam": "Credit",
+								"name": "Bachelor thesis II.",
+								"range": "70h",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "BCP2",
+								"teacher": "BT supervisor"
+							}
+						]
+					}
+				]
+			}
+		],
+		"formOfStudy": "Presentation-combined",
+		"studyPeriod": "3\u00a0years",
+		"title": "Bachelor's degree programme"
+	},
+	"doctorDegree": {
+		"academicDegree": "Doctor\u00a0(Ph.D.)",
+		"fieldsOfStudy": [
+			{
+				"code": "N0715A270015MT",
+				"name": "Materials and technologies"
+			}
+		],
+		"formOfStudy": "Presentation-combined",
+		"studyPeriod": "4\u00a0years",
+		"title": "Doctoral degree programme",
+		"link": "More information and for the doctoral programme"
+	},
+	"helmet": {
+		"title": "Education"
+	},
+	"labels": {
+		"academicDegree": "Academic degree",
+		"formOfStudy": "Form of study",
+		"studyPeriod": "Study period",
+		"year": "Year",
+		"table": {
+			"credits": "Credits",
+			"exam": "Exam",
+			"name": "Name",
+			"range": "Range",
+			"semester": "Semester",
+			"shortName": "Short name",
+			"teacher": "Teacher",
+			"requiredSubject": "Compulsory subject",
+			"notRequiredSubject": "Compulsory elective course"
+		}
+	},
+	"masterDegree": {
+		"academicDegree": "Engineer\u00a0(Ing.)",
+		"fieldsOfStudy": [
+			{
+				"code": "N0715A270015MT",
+				"name": "Materials and technologies",
+				"years": [
+					{
+						"number": 1,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Theory of machining",
+								"range": "2+2",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "TO",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 3,
+								"exam": "Cl.en.",
+								"name": "Excursions",
+								"range": "0+1T",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "EX",
+								"teacher": "Nováková\u00a0(KSP)"
+							},
+							{
+								"credits": 3,
+								"exam": "Exam",
+								"name": "Professional practice",
+								"range": "0+3T",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "OP",
+								"teacher": "Sobotka\u00a0(KSP)"
+							},
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Preparations and mounting means",
+								"range": "2+2",
+								"required": false,
+								"semester": "Winter",
+								"shortName": "PMOP",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Abrasive and unconventional methods",
+								"range": "2+2",
+								"required": false,
+								"semester": "Summer",
+								"shortName": "ANM",
+								"teacher": "Knap, Knápek"
+							}
+						]
+					},
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 2,
+								"exam": "Cl.en.",
+								"name": "Diploma thesis\u00a01",
+								"range": "0+2",
+								"required": true,
+								"semester": "Winter",
+								"shortName": "DP1",
+								"teacher": "DT supervisor"
+							},
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Metrology",
+								"range": "2+2",
+								"required": true,
+								"semester": "Winter",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 7,
+								"exam": "Exam",
+								"name": "Diploma thesis\u00a02",
+								"range": "0+8",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "DP2",
+								"teacher": "DT supervisor"
+							},
+							{
+								"credits": 15,
+								"exam": "Exam",
+								"name": "Diploma thesis\u00a03",
+								"range": "0+16",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "DP3",
+								"teacher": "DT supervisor"
+							},
+							{
+								"credits": 4,
+								"exam": "Exam",
+								"name": "Design of tech. processes and automatic production",
+								"range": "2+2",
+								"required": true,
+								"semester": "Summer",
+								"shortName": "PTPA",
+								"teacher": "Kůsa"
+							},
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Cutting Tools",
+								"range": "2+2",
+								"required": false,
+								"semester": "Winter",
+								"shortName": "RENAJ",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Special machining methods",
+								"range": "2+2",
+								"required": false,
+								"semester": "Winter",
+								"shortName": "SMO",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 4,
+								"exam": "Exam",
+								"name": "Production processes and systems",
+								"range": "2+2",
+								"required": false,
+								"semester": "Summer",
+								"shortName": "VPS",
+								"teacher": "Kůsa"
+							}
+						]
+					}
+				]
+			},
+			{
+				"code": "N0722A270001",
+				"name": "Technology of\u00a0plastics and composites",
+				"years": [
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Metrology",
+								"range": "2+2",
+								"required": true,
+								"semester": "Winter",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							}
+						]
+					}
+				]
+			},
+			{
+				"code": "N0788A270004",
+				"name": "Innovation and industrial engineering",
+				"years": [
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Exam",
+								"name": "Metrology",
+								"range": "2+2",
+								"required": false,
+								"semester": "Winter",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							}
+						]
+					}
+				]
+			}
+		],
+		"formOfStudy": "Presentation-combined",
+		"studyPeriod": "2\u00a0years",
+		"title": "Master's Degree Programme"
+	},
+	"title": "Teaching at the Department of Machining and Assembly"
+}

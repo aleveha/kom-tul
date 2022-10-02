@@ -37,7 +37,7 @@ export const TextLink = forwardRef<HTMLAnchorElement, Props>(({ href, locale, ..
 			<TextLinkComponent ref={ref} {...rest} />
 		</Link>
 	) : (
-		<TextLinkComponent href={href} ref={ref} {...rest} />
+		<TextLinkComponent href={href} ref={ref} rel="noopener noreferrer" target="_blank" {...rest} />
 	),
 );
 

@@ -1,0 +1,301 @@
+{
+	"bachelorDegree": {
+		"academicDegree": "Bakalář\u00a0(Bc.)",
+		"fieldsOfStudy": [
+			{
+				"code": "B0715A270008",
+				"name": "Strojírenství",
+				"years": [
+					{
+						"number": 3,
+						"subjects": [
+							{
+								"credits": 4,
+								"exam": "Zk.",
+								"name": "Technologie\u00a03",
+								"range": "2+2",
+								"required": true,
+								"semester": "Zimní",
+								"shortName": "TOB-B",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 2,
+								"exam": "Kl.z.",
+								"name": "Bakalářský seminář",
+								"range": "0+2",
+								"required": true,
+								"semester": "Zimní",
+								"shortName": "BCPS",
+								"teacher": "vedoucí BP"
+							},
+							{
+								"credits": 4,
+								"exam": "Zk.",
+								"name": "Montáž a\u00a0metrologie",
+								"range": "2+1",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "MOM-B",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 6,
+								"exam": "Zápočet",
+								"name": "Bakalářská práce I.",
+								"range": "50h",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "BCP1",
+								"teacher": "vedoucí BP"
+							},
+							{
+								"credits": 10,
+								"exam": "Zápočet",
+								"name": "Bakalářská práce II.",
+								"range": "70h",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "BCP2",
+								"teacher": "vedoucí BP"
+							}
+						]
+					}
+				]
+			}
+		],
+		"formOfStudy": "Prezenční–kombinovaná",
+		"studyPeriod": "3\u00a0roky",
+		"title": "Bakalářský studijní program"
+	},
+	"doctorDegree": {
+		"academicDegree": "Doktor\u00a0(Ph.D.)",
+		"fieldsOfStudy": [
+			{
+				"code": "N0715A270015MT",
+				"name": "Materiály a\u00a0technologie"
+			}
+		],
+		"formOfStudy": "Prezenční–kombinovaná",
+		"studyPeriod": "4\u00a0roky",
+		"title": "Doktorský studijní program",
+		"link": "Více informace k\u00a0doktorskému studijnímu programu"
+	},
+	"helmet": {
+		"title": "Výuka"
+	},
+	"labels": {
+		"academicDegree": "Udělovaný akademický titul",
+		"formOfStudy": "Forma studia",
+		"studyPeriod": "Standardní doba studia",
+		"year": "Ročník",
+		"table": {
+			"credits": "Kredity",
+			"exam": "Zkouška",
+			"name": "Název",
+			"range": "Rozsah",
+			"semester": "Semestr",
+			"shortName": "Zkratka",
+			"teacher": "Vyučující",
+			"requiredSubject": "Povinný předmět",
+			"notRequiredSubject": "Povinně volitelný předmět"
+		}
+	},
+	"masterDegree": {
+		"academicDegree": "Inženýr\u00a0(Ing.)",
+		"fieldsOfStudy": [
+			{
+				"code": "N0715A270015MT",
+				"name": "Materiály a\u00a0technologie",
+				"years": [
+					{
+						"number": 1,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Teorie obrábění",
+								"range": "2+2",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "TO",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 3,
+								"exam": "Kl.z.",
+								"name": "Exkurze",
+								"range": "0+1T",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "EX",
+								"teacher": "Nováková\u00a0(KSP)"
+							},
+							{
+								"credits": 3,
+								"exam": "Zk.",
+								"name": "Odborná praxe",
+								"range": "0+3T",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "OP",
+								"teacher": "Sobotka\u00a0(KSP)"
+							},
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Přípravky a\u00a0montážní prostředky",
+								"range": "2+2",
+								"required": false,
+								"semester": "Zimní",
+								"shortName": "PMOP",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Abrazivní a\u00a0nekonvenční metody",
+								"range": "2+2",
+								"required": false,
+								"semester": "Letní",
+								"shortName": "ANM",
+								"teacher": "Knap, Knápek"
+							}
+						]
+					},
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 2,
+								"exam": "Kl.z.",
+								"name": "Diplomová práce\u00a01",
+								"range": "0+2",
+								"required": true,
+								"semester": "Zimní",
+								"shortName": "DP1",
+								"teacher": "vedoucí DP"
+							},
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Metrologie",
+								"range": "2+2",
+								"required": true,
+								"semester": "Zimní",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							},
+							{
+								"credits": 7,
+								"exam": "Zk.",
+								"name": "Diplomová práce\u00a02",
+								"range": "0+8",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "DP2",
+								"teacher": "vedoucí DP"
+							},
+							{
+								"credits": 15,
+								"exam": "Zk.",
+								"name": "Diplomová práce\u00a03",
+								"range": "0+16",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "DP3",
+								"teacher": "vedoucí DP"
+							},
+							{
+								"credits": 4,
+								"exam": "Zk.",
+								"name": "Projekt. tech. procesů a\u00a0automat. výroby",
+								"range": "2+2",
+								"required": true,
+								"semester": "Letní",
+								"shortName": "PTPA",
+								"teacher": "Kůsa"
+							},
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Cutting Tools",
+								"range": "2+2",
+								"required": false,
+								"semester": "Zimní",
+								"shortName": "RENAJ",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Speciální metody obrábění",
+								"range": "2+2",
+								"required": false,
+								"semester": "Zimní",
+								"shortName": "SMO",
+								"teacher": "Knápek"
+							},
+							{
+								"credits": 4,
+								"exam": "Zk.",
+								"name": "Výrobní procesy a\u00a0systémy",
+								"range": "2+2",
+								"required": false,
+								"semester": "Letní",
+								"shortName": "VPS",
+								"teacher": "Kůsa"
+							}
+						]
+					}
+				]
+			},
+			{
+				"code": "N0722A270001",
+				"name": "Technologie plastů a\u00a0kompozitů",
+				"years": [
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Metrologie",
+								"range": "2+2",
+								"required": true,
+								"semester": "Zimní",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							}
+						]
+					}
+				]
+			},
+			{
+				"code": "N0788A270004",
+				"name": "Inovační a\u00a0průmyslové inženýrství",
+				"years": [
+					{
+						"number": 2,
+						"subjects": [
+							{
+								"credits": 5,
+								"exam": "Zk.",
+								"name": "Metrologie",
+								"range": "2+2",
+								"required": false,
+								"semester": "Zimní",
+								"shortName": "MET",
+								"teacher": "Dvořáčková"
+							}
+						]
+					}
+				]
+			}
+		],
+		"formOfStudy": "Prezenční–kombinovaná",
+		"studyPeriod": "2\u00a0roky",
+		"title": "Navazující magisterský studijní program"
+	},
+	"title": "Výuka na\u00a0katedře obrábění a\u00a0montáže"
+}
