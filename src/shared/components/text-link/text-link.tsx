@@ -15,10 +15,10 @@ const TextLinkComponent = forwardRef<HTMLAnchorElement, Props>(
 		<a
 			className={clsx(
 				"font-tul-mono no-underline",
-				!disabled && "transform duration-300 hover:cursor-pointer",
-				variant === "light"
-					? "text-tulViolet hover:text-tulVioletDark"
-					: "text-tulVioletDark hover:text-tulViolet",
+				!disabled &&
+					"transform duration-300 hover:cursor-pointer" &&
+					(variant === "light" ? "hover:text-tulVioletDark" : "hover:text-tulViolet"),
+				variant === "light" ? "text-tulViolet" : "text-tulVioletDark",
 				className,
 			)}
 			ref={ref}
