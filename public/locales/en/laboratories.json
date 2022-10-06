@@ -5,10 +5,10 @@
 	"labs": {
 		"chipTechnologies": {
 			"preview": {
-				"description": "One of\u00a0the\u00a0main objectives is to\u00a0offer services related to the optimisation of\u00a0the\u00a0cutting process in terms of\u00a0tool, material and cutting conditions.",
+				"description": "The laboratory uses high quality CNC machines for machining metallic and non-metallic materials, which are fast and very accurate.",
 				"name": "Laboratory of\u00a0chip technologies and processes"
 			},
-			"mainAim": "The laboratory of\u00a0chip technologies and processes creates a\u00a0technical background for solving research and development tasks in machining metals, plastics, and composite materials. It deals with machining theoretical and practical aspects with a\u00a0focus on cutting tools, technical analysis, and the use of\u00a0process fluids. One of\u00a0the main goals is the offer of\u00a0services associated with optimizing the cutting process in terms of\u00a0tools, machined material, and cutting conditions. The laboratory is mainly focused on the technology of\u00a0turning, milling, drilling, and grinding.",
+			"mainAim": "The laboratory of\u00a0chip technologies and processes creates a\u00a0technical background for solving research and development tasks in machining metals, plastics, and composite materials. One of\u00a0the main goals is the offer of\u00a0services associated with optimizing the cutting process in terms of\u00a0tools, machined material, and cutting conditions. The laboratory is mainly focused on the technology of\u00a0turning, milling, drilling, and grinding.",
 			"focus": [
 				"specification and evaluation of technical characteristics and reliability of\u00a0cutting tools",
 				"definition of\u00a0cutting conditions and their optimization in terms of\u00a0a\u00a0cutting tool and machined material",
@@ -20,8 +20,8 @@
 				{
 					"title": "Machinery equipment",
 					"content": [
-						"lathes – CNC lathes DMG MORI CLX 350 a CHEVALIER FLC 400, SU 50/1500. Workpiece size Ø 320 – 530\u00a0mm",
-						"milling machines – CNC milling machines DMG MORI CMX 600, FNG 32. Workpiece size až 600 x 560 x 510\u00a0mm",
+						"CNC lathes DMG MORI CLX 350 a CHEVALIER FLC 400, SU 50/1500. Workpiece size Ø\u00a0320\u00a0–\u00a0530\u00a0mm",
+						"CNC milling machines DMG MORI CMX 600, FNG 32. Workpiece size až 600\u00a0×\u00a0560\u00a0×\u00a0510\u00a0mm",
 						"drill VS40\u00a0sprint",
 						"grinding machines – center grinding machine USR\u00a0500\u00a0N, BPH\u00a0320A, BPH\u00a020, EBN 2-C, BN\u00a0102",
 						"saw – PILOUS AGR 300+H.F."

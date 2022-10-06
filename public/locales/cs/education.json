@@ -119,7 +119,7 @@
 								"required": true,
 								"semester": "Letní",
 								"shortName": "TO",
-								"teacher": "Knápek"
+								"teacher": "Dvořáčková"
 							},
 							{
 								"credits": 3,
@@ -159,7 +159,7 @@
 								"required": false,
 								"semester": "Letní",
 								"shortName": "ANM",
-								"teacher": "Knap, Knápek"
+								"teacher": "Dvořáčková"
 							}
 						]
 					},
@@ -224,7 +224,7 @@
 								"required": false,
 								"semester": "Zimní",
 								"shortName": "RENAJ",
-								"teacher": "Knápek"
+								"teacher": "Dvořáčková"
 							},
 							{
 								"credits": 5,
@@ -244,7 +244,7 @@
 								"required": false,
 								"semester": "Letní",
 								"shortName": "VPS",
-								"teacher": "Kůsa"
+								"teacher": "Dvořáčková"
 							}
 						]
 					}

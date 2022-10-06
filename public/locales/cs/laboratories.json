@@ -5,10 +5,10 @@
 	"labs": {
 		"chipTechnologies": {
 			"preview": {
-				"description": "Jedním z\u00a0hlavních cílů je nabídka služeb spojená s\u00a0optimalizací řezného procesu z\u00a0hlediska nástroje, obráběného materiálu i\u00a0řezných podmínek.",
+				"description": "Laboratoř využívá k\u00a0obrábění kovových a\u00a0nekovových materiálů kvalitní CNC stroje, které jsou rychlé a\u00a0velice přesné.",
 				"name": "Laboratoř třískových technologií a\u00a0procesů"
 			},
-			"mainAim": "Laboratoř třískových technologií a\u00a0procesů vytváří technické zázemí pro řešení výzkumných a\u00a0vývojových úkolů z\u00a0oblasti obrábění kovů, plastů i\u00a0kompozitních materiálů. Zabývá se\u00a0teoretickými i\u00a0praktickými aspekty obrábění se\u00a0zaměřením na\u00a0řezné nástroje, technologickou analýzu i\u00a0využití procesních kapalin.\nJedním z\u00a0hlavních cílů je nabídka služeb spojená s\u00a0optimalizací řezného procesu z\u00a0hlediska nástroje, obráběného materiálu i\u00a0řezných podmínek. Laboratoř je zaměřena zejména na\u00a0technologii soustružení, frézování, vrtání a\u00a0broušení.",
+			"mainAim": "Laboratoř třískových technologií a\u00a0procesů vytváří technické zázemí pro řešení výzkumných a\u00a0vývojových úkolů z\u00a0oblasti obrábění kovů, plastů i\u00a0kompozitních materiálů. Jedním z\u00a0hlavních cílů je nabídka služeb spojená s\u00a0optimalizací řezného procesu z\u00a0hlediska nástroje, obráběného materiálu i\u00a0řezných podmínek. Laboratoř je zaměřena zejména na\u00a0technologii soustružení, frézování, vrtání a\u00a0broušení.",
 			"focus": [
 				"specifikace a\u00a0hodnocení technologických charakteristik a\u00a0spolehlivosti řezných nástrojů",
 				"definice řezných podmínek a\u00a0jejich optimalizace z\u00a0hlediska řezného nástroje a\u00a0obráběného materiálu",
@@ -20,11 +20,11 @@
 				{
 					"title": "Strojní vybavení",
 					"content": [
-						"soustruhy – CNC soustruhy DMG\u00a0MORI\u00a0CLX\u00a0350 a\u00a0CHEVALIER FLC 400, SU 50/1500. Velikost obrobku až Ø 320–530mm",
-						"frézky – CNC frézka DMG\u00a0MORI\u00a0CMX\u00a0600, FNG\u00a032. Velikost obrobku až 600\u00a0x\u00a0560\u00a0x\u00a0510\u00a0mm",
+						"CNC soustružení: CNC soustruh DMG MORI CLX 350. Velikost obrobku: oběžný Ø\u00a0580\u00a0mm, obrobitelný Ø\u00a0320\u00a0mm",
+						"CNC frézování: CNC frézka DMG\u00a0MORI\u00a0CMX\u00a0600, FNG\u00a032. Velikost obrobku až\u00a0600\u00a0×\u00a0560\u00a0×\u00a0510\u00a0mm",
 						"vrtačka VS40\u00a0sprint",
-						"brusky – hrotová bruska USR 500\u00a0N, BPH\u00a0320A, BPH\u00a020, EBN\u00a02-C, BN\u00a0102",
-						"pila – PILOUS AGR 300+H.F."
+						"brusky – hrotová bruska USR\u00a0500\u00a0N, BPH\u00a0320A, EBN\u00a02-C",
+						"pila – PILOUS\u00a0AGR\u00a0300+H.F., aj."
 					]
 				},
 				{
@@ -134,7 +134,7 @@
 			"services": "Nabízené technologie a\u00a0expertní činnost:"
 		},
 		"preview": {
-			"moreButton": "Zjistit vice"
+			"moreButton": "Zjistit více"
 		}
 	},
 	"title": "Naše laboratoře"

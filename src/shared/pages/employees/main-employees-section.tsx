@@ -3,6 +3,7 @@ import { useTranslation } from "next-i18next";
 import Image, { StaticImageData } from "next/image";
 import dvorackovaImg from "public/images/employees/dvorackova.jpg";
 import kusaImg from "public/images/employees/kusa.jpg";
+import ledvinaImg from "public/images/employees/ledvina.jpg";
 import vanaImg from "public/images/employees/vana.jpg";
 import React, { FC } from "react";
 
@@ -12,7 +13,7 @@ interface MainEmployee {
 	name: string;
 	phone: string;
 	position: string;
-	specialisation: string;
+	specialisation?: string;
 }
 
 const MainEmployee: FC<MainEmployee> = ({ email, image, name, phone, position, specialisation }) => {
@@ -41,9 +42,11 @@ const MainEmployee: FC<MainEmployee> = ({ email, image, name, phone, position, s
 							{phone}
 						</TextLink>
 					</p>
-					<p>
-						{t("labels.specialisation")}: {specialisation}
-					</p>
+					{specialisation && (
+						<p>
+							{t("labels.specialisation")}: {specialisation}
+						</p>
+					)}
 				</div>
 			</div>
 		</div>
@@ -54,6 +57,7 @@ export const MainEmployeesSection: FC = () => {
 	const { t } = useTranslation("employees");
 	const dvorackova = t("mainEmployees.dvorackova", { returnObjects: true }) as MainEmployee;
 	const kusa = t("mainEmployees.kusa", { returnObjects: true }) as MainEmployee;
+	const ledvina = t("mainEmployees.ledvina", { returnObjects: true }) as MainEmployee;
 	const vana = t("mainEmployees.vana", { returnObjects: true }) as MainEmployee;
 
 	return (
@@ -62,6 +66,7 @@ export const MainEmployeesSection: FC = () => {
 			<div className="space-y-20">
 				<MainEmployee {...dvorackova} image={dvorackovaImg} />
 				<MainEmployee {...kusa} image={kusaImg} />
+				<MainEmployee {...ledvina} image={ledvinaImg} />
 				<MainEmployee {...vana} image={vanaImg} />
 			</div>
 		</div>
