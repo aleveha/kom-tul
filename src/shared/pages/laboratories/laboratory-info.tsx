@@ -25,12 +25,12 @@ export const LaboratoryInfo: FC<Props> = ({ equipment, focus, image, mainAim, se
 			<div className="space-y-10 lg:space-y-20">
 				<h1 className="ui-container ui-typo-h1 text-tulViolet">{title}</h1>
 				<div className="bg-tulViolet pt-20 pb-10 lg:pb-20">
-					<div className="ui-container flex flex-col space-y-10 xl:flex-row xl:space-y-0 xl:space-x-6">
-						<div className="space-y-6 xl:w-1/2">
+					<div className="ui-container flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-14">
+						<div className="space-y-6 lg:w-1/2">
 							<h2 className="ui-typo-h3 text-white">{t("labs.titles.mainAim")}</h2>
-							<p className="leading-relaxed tracking-wider text-white">{mainAim}</p>
+							<p className="leading-relaxed tracking-wider text-white sm:text-justify">{mainAim}</p>
 						</div>
-						<div className="flex overflow-hidden rounded-3xl border-2 border-white md:max-w-[36rem] xl:w-1/2">
+						<div className="flex h-full overflow-hidden rounded-3xl border-2 border-white lg:w-1/2">
 							<Image alt={title} src={image} />
 						</div>
 					</div>

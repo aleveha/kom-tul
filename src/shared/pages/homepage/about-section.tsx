@@ -17,7 +17,7 @@ export const AboutSection: FC = () => {
 			<div className="ui-container flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20">
 				<div className="lg:col-span-5 lg:w-2/5">
 					<h3 className="ui-typo-h3 mb-5 text-white">{t("aboutSection.title")}</h3>
-					<p className="ui-typo-body tracking-wider text-white">{t("aboutSection.text")}</p>
+					<p className="ui-typo-body tracking-wider text-white sm:text-justify">{t("aboutSection.text")}</p>
 				</div>
 				<div className="lg:col-span-7 lg:w-3/5">
 					<Slider slides={images} />
