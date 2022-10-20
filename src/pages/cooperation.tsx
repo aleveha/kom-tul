@@ -12,7 +12,11 @@ export const Page: NextPage = () => {
 
 	return (
 		<>
-			<Helmet canonicalUrl={locale === "en" ? "/en/cooperation" : "/spoluprace"} title={t("helmet.title")} />
+			<Helmet
+				canonicalUrl={locale === "en" ? "/en/cooperation" : "/spoluprace"}
+				metaTagData={{ metaDescription: t("helmet.description") }}
+				title={t("helmet.title")}
+			/>
 			<AboutSection />
 			<HowToCooperateSection />
 		</>

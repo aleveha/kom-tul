@@ -13,7 +13,11 @@ export const Page: NextPage = () => {
 
 	return (
 		<>
-			<Helmet canonicalUrl={locale === "en" ? "/en/employees" : "/pracovnici"} title={t("helmet.title")} />
+			<Helmet
+				canonicalUrl={locale === "en" ? "/en/employees" : "/pracovnici"}
+				metaTagData={{ metaDescription: t("helmet.description") }}
+				title={t("helmet.title")}
+			/>
 			<MainEmployeesSection />
 			<AssistantsSection />
 			<PhDStudentsSection />

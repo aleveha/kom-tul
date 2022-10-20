@@ -1,9 +1,14 @@
 {
 	"helmet": {
+		"description": "The Department of Machining and Assembly uses the Laboratory of Chipping Technologies and Processes and the Laboratory of Engineering Metrology to solve research and development tasks within the framework of national or international science and research projects, as well as within the framework of contract research contracts and supplementary activities.",
 		"title": "Laboratories"
 	},
 	"labs": {
 		"chipTechnologies": {
+			"helmet": {
+				"description": "The Laboratory of Chip Technologies and Processes deals with research and development tasks in the field of machining of metals, plastics and composite materials.",
+				"title": "Laboratory of chip technologies and processes"
+			},
 			"preview": {
 				"description": "The laboratory uses high quality CNC machines for machining metallic and non-metallic materials, which are fast and very accurate.",
 				"name": "Laboratory of\u00a0chip technologies and processes"
@@ -76,6 +81,10 @@
 			]
 		},
 		"engineeringMetrology": {
+			"helmet": {
+				"description": "The Laboratory of Engineering Metrology deals with research and development tasks in the field of metrology.",
+				"title": "Laboratory of engineering metrology"
+			},
 			"preview": {
 				"description": "The aim of\u00a0the laboratory is to\u00a0create a\u00a0comprehensive service offering, especially in the field of length and angle measurements (1D, 2D, 3D). It is also equipped for precise measurement of\u00a0surface roughness parameters by the touch method.",
 				"name": "Laboratory of engineering metrology"

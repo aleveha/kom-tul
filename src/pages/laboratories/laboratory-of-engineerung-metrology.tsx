@@ -18,7 +18,8 @@ export const Page: NextPage = () => {
 						? "/en/laboratories/laboratory-of-engineering-metrology"
 						: "/laboratore/laborator-strojirenske-metrologie"
 				}
-				title={t("labs.engineeringMetrology.preview.name")}
+				metaTagData={{ metaDescription: t("labs.engineeringMetrology.helmet.description") }}
+				title={t("labs.engineeringMetrology.helmet.title")}
 			/>
 			<LaboratoryInfo
 				equipment={t("labs.engineeringMetrology.equipment", { returnObjects: true })}

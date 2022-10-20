@@ -11,7 +11,11 @@ export const Page: NextPage = () => {
 
 	return (
 		<>
-			<Helmet canonicalUrl={locale === "en" ? "/en/laboratories" : "/laboratore"} title={t("helmet.title")} />
+			<Helmet
+				canonicalUrl={locale === "en" ? "/en/laboratories" : "/laboratore"}
+				metaTagData={{ metaDescription: t("helmet.description") }}
+				title={t("helmet.title")}
+			/>
 			<AllLaboratoriesSection />
 		</>
 	);

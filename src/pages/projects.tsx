@@ -14,6 +14,7 @@ export const Page: NextPage = () => {
 		<>
 			<Helmet
 				canonicalUrl={config.FRONTEND_URL + (locale === "en" ? "/en/projects" : "/projekty")}
+				metaTagData={{ metaDescription: t("helmet.description") }}
 				title={t("helmet.title")}
 			/>
 			<div>

@@ -18,7 +18,8 @@ export const Page: NextPage = () => {
 						? "/en/laboratories/laboratory-of-chip-technologies"
 						: "/laboratore/laborator-triskovych-technologii-a-procesu"
 				}
-				title={t("labs.chipTechnologies.preview.name")}
+				metaTagData={{ metaDescription: t("labs.chipTechnologies.helmet.description") }}
+				title={t("labs.chipTechnologies.helmet.title")}
 			/>
 			<LaboratoryInfo
 				equipment={t("labs.chipTechnologies.equipment", { returnObjects: true })}

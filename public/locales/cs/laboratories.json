@@ -1,9 +1,14 @@
 {
 	"helmet": {
+		"description": "Katedra obrábění a montáže využívá k řešením výzkumných a vývojových úkolů v rámci národních či mezinárodních projektů vědy a výzkumu a dále v rámci zakázek smluvního výzkumu a doplňkové činnosti Laboratoř třískových technologií a procesů a Laboratoř strojírenské metrologie.",
 		"title": "Laboratoře"
 	},
 	"labs": {
 		"chipTechnologies": {
+			"helmet": {
+				"description": "Laboratoř třískových technologií a procesů se zabývá řešením výzkumných a vývojových úkolů z oblasti obrábění kovů, plastů i kompozitních materiálů.",
+				"title": "Laboratoř třískových technologií a procesů"
+			},
 			"preview": {
 				"description": "Laboratoř využívá k\u00a0obrábění kovových a\u00a0nekovových materiálů kvalitní CNC stroje, které jsou rychlé a\u00a0velice přesné.",
 				"name": "Laboratoř třískových technologií a\u00a0procesů"
@@ -76,6 +81,10 @@
 			]
 		},
 		"engineeringMetrology": {
+			"helmet": {
+				"description": "Laboratoř strojírenské metrologie se zabývá řešením výzkumných a vývojových úkolů z oblasti metrologie.",
+				"title": "Laboratoř strojírenské metrologie"
+			},
 			"preview": {
 				"description": "Cílem laboratoře je vytvoření nabídky komplexních služeb zejména v\u00a0oblasti měření délek a\u00a0úhlů (1D, 2D, 3D). Dále je vybavena pro přesné měření parametrů drsnosti povrchu dotykovou metodou.",
 				"name": "Laboratoř strojírenské metrologie"

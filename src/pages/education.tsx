@@ -13,7 +13,11 @@ export const Page: NextPage = () => {
 
 	return (
 		<>
-			<Helmet canonicalUrl={locale === "en" ? "/en/education" : "vyuka"} title={t("helmet.title")} />
+			<Helmet
+				canonicalUrl={locale === "en" ? "/en/education" : "vyuka"}
+				metaTagData={{ metaDescription: t("helmet.description") }}
+				title={t("helmet.title")}
+			/>
 			<BachelorDegreeSection />
 			<MasterDegreeSection />
 			<DoctorDegreeSection />
