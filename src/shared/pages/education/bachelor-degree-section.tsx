@@ -1,4 +1,5 @@
 import { FieldOfStudyInfo } from "@shared/pages/education/field-of-study";
+import { RectorsDirective } from "@shared/pages/education/rectors-directive";
 import { FieldOfStudy } from "@shared/pages/education/types";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
@@ -29,6 +30,7 @@ export const BachelorDegreeSection: FC = () => {
 						),
 					)}
 				</div>
+				<RectorsDirective />
 			</div>
 		</div>
 	);
