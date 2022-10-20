@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Webové stránky katedry obrábění a montáže Technické univerzity v Liberci
 
-## Getting Started
+### Použité technologie (pro hledání dalších vývojářů):
+- [ReactJS](https://reactjs.org) – knihovna v jazyce JavaScript pro tvorbu webového rozhraní
+- [Next.js](https://nextjs.org) – rozšíření pro ReactJS pro vývoj aplikací se server-side renderingem (SSR) a zaměřené na SEO
+- [TailwindCSS](https://tailwindcss.com) – CSS framework
+- [next-i18next](https://github.com/i18next/next-i18next) – knihovna pro překlad textů (internacionální podpora)
 
-First, run the development server:
+### Jak spustit projekt lokálně:
+1. Nainstalujte [Node.js](https://nodejs.org/en/download/)
+2. Nainstalujte [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+3. Stáhněte si projekt
+4. V adresáři projektu spusťte příkaz `yarn install`
+5. Spusťte příkaz `yarn dev`
+6. Otevřete v prohlížeči adresu `localhost:3000`
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Struktura projektu:
+- `pages` – adresář s komponentami, které odpovídají jednotlivým stránkám
+- `public` – adresář s veřejnými soubory, které se při buildu kopírují do kořenového adresáře projektu
+- `src` – adresář s komponentami, které se používají na více stránkách nebo jsou používány jako podklad pro vytvoření stránky
+- `styles` – adresář s globálními styly
+- `public/locales/cs` – adresář s překlady do češtiny
+- `public/locales/en` – adresář s překlady do angličtiny
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Jak měnit texty na stránkách:
+1. V adresáři `public/locales/cs` nebo `public/locales/en` najděte soubor, který obsahuje text, který chcete změnit
+2. Otevřete soubor v textovém editoru (doporučuji Web IDE přímo v GitLabu)
+3. Upravte text (nezapomeňte opravit i překlad do druhého jazyka)
+4. Uložte opravy pomoci tlačítka `Create commit` => napište smysuplný commit message => vyberte `Commit to main branch` => klikněte na `Commit changes`.
+5. Po chvíli se změny automaticky zobrazí na stránkách.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+P.s.: pro větší opravy doporučuji se obratit na vývojáře.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Udržování projektu:
+Správce webu je zatím [Nikita Tashchilin](https://github.com/aleveha). Pokud máte nápad na vylepšení, napište mi [email](mailto:nikita.tashchilin@tul.cz).\
+Pro budoucné udržovaní doporučuji [UXFans](https://uxf.cz/).
