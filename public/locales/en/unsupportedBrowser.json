@@ -1,0 +1,10 @@
+{
+	"helmet": {
+		"title": "Your browser isn't supported",
+		"description": "Your browser is not longer supported. Please upgrade to a modern browser."
+	},
+	"content": {
+		"title": "Your browser isn't supported",
+		"description": "Sorry, but our website doesn't understand this browser. Please try another browser, we support Chrome, Mozilla Firefox, newer versions of Microsoft Edge, Opera, or Safari."
+	}
+}

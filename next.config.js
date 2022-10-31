@@ -36,6 +36,10 @@ const nextConfig = {
 				destination: "/en/vyuka",
 			},
 			{
+				source: "/en/unsupported-browser",
+				destination: "/en/nepodporovany-prohlizec",
+			},
+			{
 				source: "/projects",
 				destination: "/projekty",
 			},
@@ -62,6 +66,10 @@ const nextConfig = {
 			{
 				source: "/education",
 				destination: "/vyuka",
+			},
+			{
+				source: "/unsupported-browser",
+				destination: "/nepodporovany-prohlizec",
 			},
 		];
 	},

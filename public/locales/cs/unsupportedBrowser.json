@@ -1,0 +1,10 @@
+{
+	"helmet": {
+		"title": "Váš prohlížeč již není podporován",
+		"description": "Váš prohlížeč již není podporován. Aktualizujte si prohlížeč na nejnovější verzi."
+	},
+	"content": {
+		"title": "Bohužel, váš prohlížeč již nepodporujeme",
+		"description": "Omlouváme se, ale náš web si s tímhle prohlížečem nerozumí. Zkuste to prosím v jiném, podporujeme Chrome, Mozillu Firefox, novější verze Microsoft Edge, Operu, nebo Safari"
+	}
+}
