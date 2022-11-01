@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+    web:
+        container_name: kom-tul-web
+        build:
+            context: .
+
+    nginx:
+        image: nginx:alpine
+        container_name: kom-tul-nginx
+        volumes:
+            - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+        ports:
+            - "8000:80"
+        depends_on:
+            - web
+        restart: on-failure
