@@ -3,6 +3,12 @@
 		"text1": "DMA's broad expertise is complemented by a range of professional consultancy, training and contract research. Furthermore, cooperation on R&D projects, offering free laboratory capacity and complementary industrial activities. The above activities support the link between the DMA and industrial practice.",
 		"text2": "DMA offers research partnerships, we are very happy to assist with research in a wide range of areas from classical machining of various materials to metrology to design or optimisation of production processes. The range of DMA's expertise includes the fields of engineering design, engineering technology or prototype production."
 	},
+	"address": {
+		"departmentAddress": "Studentská\u00a02, 461\u00a017 Liberec\u00a01",
+		"departmentName": "Department of\u00a0Machining and Assembly",
+		"title": "How to find us",
+		"universityName": "Technical University of\u00a0Liberec"
+	},
 	"helmet": {
 		"description": "The Department of Machining and Assembly cooperates very closely with industrial partners or other research organisations within the framework of national or international science and research projects, as well as within the framework of contract research contracts and complementary activities.",
 		"title": "Cooperation"

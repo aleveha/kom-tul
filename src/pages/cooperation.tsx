@@ -1,5 +1,6 @@
 import { Helmet } from "@shared/components/helmet/helmet";
 import { AboutSection } from "@shared/pages/cooperation/about-section";
+import { AddressSection } from "@shared/pages/cooperation/address-section";
 import { HowToCooperateSection } from "@shared/pages/cooperation/how-to-cooperate-section";
 import { NextPage } from "next";
 import { useTranslation } from "next-i18next";
@@ -19,6 +20,7 @@ export const Page: NextPage = () => {
 			/>
 			<AboutSection />
 			<HowToCooperateSection />
+			<AddressSection />
 		</>
 	);
 };
