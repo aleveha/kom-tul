@@ -4,6 +4,8 @@ services:
         container_name: kom-tul-web
         build:
             context: .
+        environment:
+            - NODE_ENV=production
 
     nginx:
         image: nginx:alpine
