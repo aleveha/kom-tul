@@ -6,6 +6,8 @@ services:
             context: .
         environment:
             - NODE_ENV=production
+        env_file:
+            - .env.production
 
     nginx:
         image: nginx:alpine

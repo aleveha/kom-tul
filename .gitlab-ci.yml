@@ -3,25 +3,25 @@ stages:
     - build
     - deploy
 
-test-job:
+test:
+    stage: test
     tags:
         - test
-    stage: test
     script:
         - yarn install
         - yarn run check
 
-build-job:
+build:
+    stage: build
     tags:
         - build
-    stage: build
     script:
         - yarn install
         - yarn build
 
-#deploy-job:
-#    tags:
-#        - deploy
-#    stage: deploy
-#    script:
-#        - node -v
+deploy:
+    tags:
+        - deploy
+    stage: deploy
+    script:
+        - docker-compose up -d --build
