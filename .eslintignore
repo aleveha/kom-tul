@@ -13,3 +13,7 @@
 !public/locales/**/*.json
 !*.json
 !*.js
+
+.next
+node_modules
+.idea

@@ -4,8 +4,10 @@
 	"private": false,
 	"scripts": {
 		"build": "next build",
+		"check": "tsc && yarn format && yarn lint",
 		"dev": "NODE_ENV=development next dev",
-		"format": "prettier --write .",
+		"format": "prettier -c .",
+		"lint": "next lint",
 		"start": "next start"
 	},
 	"dependencies": {
