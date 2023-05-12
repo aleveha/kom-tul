@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Image from "next/image";
-import euLogo from "public/images/eu_flag.jpg";
+import euLogo from "public/images/eu.webp";
 import { FC } from "react";
 
 type Heading = "h3" | "h4";
@@ -34,15 +34,8 @@ export const InfoTile: FC<Props> = ({ as, data, disableListStyle, index, showEuL
 				))}
 			</ul>
 			{showEuLogo && (
-				<div className="flex items-center space-x-2">
-					<div className="flex w-[4.5rem]">
-						<Image alt="eu flag" className="rounded-lg" src={euLogo} />
-					</div>
-					<div className="w-36 text-[0.5rem]">
-						<p>EVROPSKA UNIE</p>
-						<p>Evropsky fond pro regionalni rozvoj</p>
-						<p>Operacni program Podnikáni a&nbsp;inovace pro konkurenceschopnost</p>
-					</div>
+				<div className="flex max-w-[16rem]">
+					<Image alt="eu logo" src={euLogo} />
 				</div>
 			)}
 		</div>
